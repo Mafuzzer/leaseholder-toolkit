@@ -1,0 +1,1452 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="color-scheme" content="light">
+<meta name="theme-color" content="#f4ede0">
+<meta name="supported-color-schemes" content="light">
+<title>The Anatomy of a Service Charge: Chirag Vadhia v Proxima GR Properties Ltd</title>
+<meta name="description" content="A leaseholder, a managing agent, a tribunal. The 18-month story of one service charge dispute and what it reveals about leasehold in England.">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;0,9..144,700;0,9..144,900;1,9..144,400&family=JetBrains+Mono:wght@400;500&family=Inter+Tight:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+<style>
+:root {
+  color-scheme: light only;
+  --paper: #f4ede0;
+  --paper-dim: #ece4d3;
+  --ink: #1a1a1a;
+  --ink-soft: #2a2a2a;
+  --ink-fade: #555;
+  --ink-faint: #888;
+  --rule: #c4b89e;
+  --rule-faint: #d8cfb8;
+  --accent: #a83232;
+  --accent-soft: #c25656;
+  --highlight: #e8dcc0;
+  --shadow: rgba(20, 15, 5, 0.08);
+  --container: 1100px;
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+html {
+  scroll-behavior: smooth;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color-scheme: light only;
+  background: #f4ede0;
+}
+
+body {
+  font-family: 'Fraunces', Georgia, serif;
+  background: #f4ede0;
+  color: #1a1a1a;
+  font-size: 19px;
+  line-height: 1.65;
+  font-weight: 400;
+  font-feature-settings: "ss01", "ss02";
+  overflow-x: hidden;
+}
+
+body::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='200' height='200'%3E%3Cfilter id='n'%3E%3CfeTurbulence baseFrequency='0.85' numOctaves='3' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 0.4 0 0 0 0 0.35 0 0 0 0 0.25 0 0 0 0.06 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+  pointer-events: none;
+  z-index: 1;
+  opacity: 0.5;
+}
+
+.container {
+  max-width: var(--container);
+  margin: 0 auto;
+  padding: 0 32px;
+  position: relative;
+  z-index: 2;
+}
+
+.progress-rail {
+  position: fixed;
+  top: 0; left: 0; right: 0;
+  height: 2px;
+  background: transparent;
+  z-index: 100;
+}
+
+.progress-bar {
+  height: 100%;
+  background: var(--accent);
+  width: 0%;
+  transition: width 0.1s linear;
+}
+
+.nav {
+  position: fixed;
+  top: 16px;
+  right: 24px;
+  z-index: 50;
+  font-family: 'Inter Tight', sans-serif;
+  font-size: 11px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--ink-fade);
+  background: rgba(244, 237, 224, 0.85);
+  backdrop-filter: blur(8px);
+  padding: 8px 14px;
+  border: 1px solid var(--rule-faint);
+  border-radius: 2px;
+}
+
+.nav .case-ref { color: var(--accent); font-weight: 600; }
+
+/* HERO with timeline at top */
+.hero {
+  padding: 80px 0 60px;
+  position: relative;
+  z-index: 2;
+  border-bottom: 1px solid var(--rule);
+}
+
+.hero-eyebrow {
+  font-family: 'Inter Tight', sans-serif;
+  font-size: 11px;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  color: var(--accent);
+  margin-bottom: 36px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.hero-eyebrow::after {
+  content: '';
+  flex: 1;
+  height: 1px;
+  background: var(--rule);
+  max-width: 120px;
+}
+
+.hero h1 {
+  font-family: 'Fraunces', serif;
+  font-size: clamp(40px, 5.6vw, 84px);
+  font-weight: 300;
+  line-height: 0.98;
+  letter-spacing: -0.025em;
+  margin-bottom: 32px;
+  font-variation-settings: "opsz" 144;
+  max-width: 22ch;
+}
+
+.hero h1 .em {
+  font-style: italic;
+  font-weight: 400;
+  color: var(--accent);
+}
+
+.hero-deck {
+  font-size: clamp(17px, 1.4vw, 21px);
+  line-height: 1.55;
+  max-width: 56ch;
+  color: var(--ink-soft);
+  font-weight: 400;
+  margin-bottom: 56px;
+}
+
+/* HORIZONTAL TIMELINE */
+.hero-timeline {
+  margin: 56px 0 44px;
+  padding-top: 32px;
+  border-top: 1px solid var(--rule);
+}
+
+.hero-timeline-label {
+  font-family: 'Inter Tight', sans-serif;
+  font-size: 10.5px;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--accent);
+  font-weight: 600;
+  margin-bottom: 28px;
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  flex-wrap: wrap;
+}
+
+.hero-timeline-label .duration {
+  color: var(--ink-fade);
+  font-weight: 500;
+}
+
+.htl-track {
+  position: relative;
+  padding: 0 0 8px;
+}
+
+.htl-line {
+  position: absolute;
+  top: 18px;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background: var(--rule);
+}
+
+.htl-line-progress {
+  position: absolute;
+  top: 18px;
+  left: 0;
+  height: 2px;
+  background: var(--accent);
+  width: 0;
+  transition: width 1.6s cubic-bezier(0.16, 1, 0.3, 1) 0.4s;
+}
+
+.htl-events {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  position: relative;
+  gap: 0;
+}
+
+.htl-event {
+  position: relative;
+  padding-top: 0;
+  text-align: left;
+  opacity: 0;
+  transform: translateY(8px);
+  transition: opacity 0.6s ease, transform 0.6s ease;
+}
+
+.htl-track.active .htl-event { opacity: 1; transform: translateY(0); }
+
+.htl-track.active .htl-event:nth-child(1) { transition-delay: 0.6s; }
+.htl-track.active .htl-event:nth-child(2) { transition-delay: 0.8s; }
+.htl-track.active .htl-event:nth-child(3) { transition-delay: 1.0s; }
+.htl-track.active .htl-event:nth-child(4) { transition-delay: 1.2s; }
+.htl-track.active .htl-event:nth-child(5) { transition-delay: 1.4s; }
+.htl-track.active .htl-event:nth-child(6) { transition-delay: 1.6s; }
+.htl-track.active .htl-event:nth-child(7) { transition-delay: 1.8s; }
+
+.htl-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: var(--paper);
+  border: 1.5px solid var(--accent);
+  margin-bottom: 14px;
+  margin-left: 0;
+  position: relative;
+  z-index: 2;
+}
+
+.htl-event.major .htl-dot {
+  background: var(--accent);
+  width: 12px;
+  height: 12px;
+  margin-bottom: 13px;
+}
+
+.htl-event.outcome .htl-dot {
+  background: var(--ink);
+  border-color: var(--ink);
+}
+
+.htl-date {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 10.5px;
+  color: var(--accent);
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  margin-bottom: 4px;
+  display: block;
+}
+
+.htl-event.outcome .htl-date { color: var(--ink); }
+
+.htl-event-label {
+  font-family: 'Inter Tight', sans-serif;
+  font-size: 11.5px;
+  font-weight: 600;
+  line-height: 1.3;
+  color: var(--ink);
+  padding-right: 16px;
+}
+
+.hero-conclusion {
+  margin-top: 8px;
+  padding: 28px 32px;
+  background: var(--paper-dim);
+  border-left: 3px solid var(--accent);
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 32px;
+  align-items: center;
+}
+
+.hero-conclusion-label {
+  font-family: 'Inter Tight', sans-serif;
+  font-size: 10px;
+  letter-spacing: 0.28em;
+  text-transform: uppercase;
+  color: var(--accent);
+  font-weight: 600;
+}
+
+.hero-conclusion-text {
+  font-family: 'Fraunces', serif;
+  font-size: 17px;
+  line-height: 1.5;
+  color: var(--ink);
+  font-weight: 400;
+}
+
+.hero-conclusion-text .figure {
+  color: var(--accent);
+  font-weight: 500;
+}
+
+.hero-byline {
+  margin-top: 56px;
+  padding-top: 32px;
+  border-top: 1px solid var(--rule);
+  font-family: 'Inter Tight', sans-serif;
+  font-size: 12px;
+  letter-spacing: 0.05em;
+  color: var(--ink-fade);
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 16px;
+  align-items: center;
+}
+
+.hero-byline strong { color: var(--ink); font-weight: 600; }
+
+.scroll-cue {
+  font-family: 'Inter Tight', sans-serif;
+  font-size: 10px;
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+  color: var(--ink-fade);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  animation: pulse 2.4s ease-in-out infinite;
+}
+
+.scroll-cue svg { width: 14px; height: 14px; }
+
+@keyframes pulse {
+  0%, 100% { opacity: 0.4; }
+  50% { opacity: 1; }
+}
+
+/* ARTICLE BODY */
+.section {
+  padding: 90px 0;
+  position: relative;
+  z-index: 2;
+  border-bottom: 1px solid var(--rule);
+}
+
+.section.tight { padding: 60px 0; }
+
+.section-mark {
+  font-family: 'Inter Tight', sans-serif;
+  font-size: 10px;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  color: var(--accent);
+  font-weight: 600;
+  margin-bottom: 24px;
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.section-mark .num {
+  font-family: 'Fraunces', serif;
+  font-style: italic;
+  font-size: 18px;
+  font-weight: 400;
+  color: var(--accent);
+}
+
+.section h2 {
+  font-family: 'Fraunces', serif;
+  font-size: clamp(32px, 4vw, 52px);
+  font-weight: 400;
+  line-height: 1.08;
+  letter-spacing: -0.02em;
+  margin-bottom: 32px;
+  max-width: 22ch;
+  font-variation-settings: "opsz" 144;
+}
+
+.section h2 em { font-style: italic; color: var(--accent); }
+
+.section h3 {
+  font-family: 'Fraunces', serif;
+  font-size: clamp(20px, 1.8vw, 26px);
+  font-weight: 500;
+  line-height: 1.25;
+  margin-top: 44px;
+  margin-bottom: 18px;
+  letter-spacing: -0.01em;
+  max-width: 30ch;
+}
+
+.section .lede {
+  font-size: 21px;
+  line-height: 1.5;
+  font-weight: 400;
+  font-style: italic;
+  max-width: 38em;
+  color: var(--ink-soft);
+  margin-bottom: 36px;
+  border-left: 2px solid var(--accent);
+  padding-left: 24px;
+}
+
+.section p {
+  max-width: 38em;
+  margin-bottom: 1.4em;
+  font-size: 19px;
+  line-height: 1.65;
+}
+
+.section p strong { font-weight: 600; }
+.section p em { font-style: italic; }
+
+.section p a {
+  color: var(--accent);
+  text-decoration: none;
+  border-bottom: 1px solid var(--accent-soft);
+  transition: background 0.2s;
+}
+
+.section p a:hover { background: var(--highlight); }
+
+.dropcap::first-letter {
+  font-family: 'Fraunces', serif;
+  font-size: 5.6em;
+  font-weight: 300;
+  float: left;
+  line-height: 0.85;
+  margin: 8px 12px 0 -2px;
+  color: var(--accent);
+  font-variation-settings: "opsz" 144;
+}
+
+/* DOCUMENT CARDS */
+.doc-card {
+  background: #fdfaf2;
+  border: 1px solid var(--rule);
+  box-shadow: 0 2px 0 var(--shadow), 0 12px 32px var(--shadow);
+  padding: 28px 32px;
+  margin: 36px 0;
+  max-width: 640px;
+  position: relative;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 13.5px;
+  line-height: 1.65;
+  color: var(--ink-soft);
+}
+
+.doc-card::before {
+  content: '';
+  position: absolute;
+  top: -1px; left: -1px; right: -1px;
+  height: 4px;
+  background: linear-gradient(90deg, var(--accent) 0%, var(--accent) 30%, transparent 30%);
+}
+
+.doc-card .doc-meta {
+  font-family: 'Inter Tight', sans-serif;
+  font-size: 10px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--ink-faint);
+  margin-bottom: 18px;
+  padding-bottom: 12px;
+  border-bottom: 1px dashed var(--rule);
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.doc-card .doc-meta .doc-tag {
+  background: var(--highlight);
+  padding: 2px 8px;
+  font-weight: 600;
+  color: var(--accent);
+  letter-spacing: 0.15em;
+}
+
+.doc-card p { margin-bottom: 0.8em; max-width: none; font-size: 13.5px; }
+.doc-card p:last-child { margin-bottom: 0; }
+
+.doc-card .highlight-text {
+  background: var(--highlight);
+  padding: 1px 4px;
+  font-weight: 500;
+}
+
+/* STATS / FIGURE BLOCKS */
+.fig-row {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 24px;
+  margin: 40px 0;
+  padding: 32px 0;
+  border-top: 1px solid var(--rule);
+  border-bottom: 1px solid var(--rule);
+}
+
+.fig { font-family: 'Fraunces', serif; }
+
+.fig .figure {
+  font-size: clamp(36px, 3.6vw, 48px);
+  font-weight: 400;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  display: block;
+  margin-bottom: 10px;
+  color: var(--accent);
+  font-variation-settings: "opsz" 144;
+}
+
+.fig .label {
+  font-family: 'Inter Tight', sans-serif;
+  font-size: 11px;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--ink-fade);
+  font-weight: 500;
+  line-height: 1.4;
+}
+
+/* VERTICAL TIMELINE (in body) */
+.timeline {
+  margin: 40px 0;
+  position: relative;
+  max-width: 720px;
+}
+
+.timeline::before {
+  content: '';
+  position: absolute;
+  left: 8px;
+  top: 12px;
+  bottom: 12px;
+  width: 1px;
+  background: var(--rule);
+}
+
+.tl-item {
+  position: relative;
+  padding-left: 36px;
+  padding-bottom: 28px;
+}
+
+.tl-item::before {
+  content: '';
+  position: absolute;
+  left: 4px;
+  top: 8px;
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  background: var(--paper);
+  border: 1.5px solid var(--accent);
+}
+
+.tl-item.major::before {
+  background: var(--accent);
+  width: 11px;
+  height: 11px;
+  left: 3px;
+}
+
+.tl-date {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 12px;
+  color: var(--accent);
+  font-weight: 500;
+  letter-spacing: 0.05em;
+  margin-bottom: 4px;
+  display: block;
+}
+
+.tl-event {
+  font-family: 'Fraunces', serif;
+  font-size: 18px;
+  line-height: 1.4;
+  font-weight: 500;
+  margin-bottom: 4px;
+}
+
+.tl-detail {
+  font-size: 15px;
+  color: var(--ink-fade);
+  line-height: 1.5;
+}
+
+/* ASYMMETRY */
+.asymmetry {
+  margin: 56px 0;
+  padding: 36px;
+  background: var(--paper-dim);
+  border: 1px solid var(--rule);
+  position: relative;
+  max-width: 760px;
+}
+
+.asym-title {
+  font-family: 'Inter Tight', sans-serif;
+  font-size: 11px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--accent);
+  font-weight: 600;
+  margin-bottom: 24px;
+}
+
+.asym-row {
+  display: grid;
+  grid-template-columns: 200px 1fr 100px;
+  gap: 16px;
+  align-items: center;
+  margin-bottom: 14px;
+  font-family: 'Inter Tight', sans-serif;
+}
+
+.asym-label {
+  font-size: 13.5px;
+  font-weight: 500;
+  color: var(--ink);
+}
+
+.asym-bar {
+  height: 26px;
+  background: linear-gradient(90deg, var(--accent), var(--accent-soft));
+  position: relative;
+  transform-origin: left;
+  transform: scaleX(0);
+  transition: transform 1.4s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.asym-bar.them {
+  background: linear-gradient(90deg, var(--ink), var(--ink-soft));
+}
+
+.asym-row.visible .asym-bar { transform: scaleX(var(--scale, 1)); }
+
+.asym-figure {
+  font-family: 'Fraunces', serif;
+  font-size: 17px;
+  font-weight: 500;
+  color: var(--ink);
+  text-align: right;
+}
+
+.asym-caption {
+  font-size: 13px;
+  color: var(--ink-fade);
+  margin-top: 22px;
+  line-height: 1.55;
+  max-width: 50em;
+  font-family: 'Fraunces', serif;
+}
+
+/* DECISION BLOCK */
+.decision {
+  background: var(--ink);
+  color: var(--paper);
+  padding: 90px 0;
+  position: relative;
+  z-index: 2;
+}
+
+.decision::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='200' height='200'%3E%3Cfilter id='n'%3E%3CfeTurbulence baseFrequency='0.85' numOctaves='3' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.04 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+  pointer-events: none;
+  opacity: 0.6;
+}
+
+.decision-mark {
+  font-family: 'Inter Tight', sans-serif;
+  font-size: 10px;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  color: var(--accent-soft);
+  font-weight: 600;
+  margin-bottom: 22px;
+  position: relative;
+}
+
+.decision h2 {
+  font-family: 'Fraunces', serif;
+  font-size: clamp(34px, 4.4vw, 56px);
+  font-weight: 300;
+  line-height: 1.08;
+  letter-spacing: -0.02em;
+  margin-bottom: 20px;
+  font-variation-settings: "opsz" 144;
+  position: relative;
+  max-width: 24ch;
+}
+
+.decision h2 em {
+  font-style: italic;
+  color: var(--accent-soft);
+}
+
+.decision-deck {
+  font-size: 18px;
+  line-height: 1.55;
+  max-width: 38em;
+  color: rgba(244, 237, 224, 0.78);
+  margin-bottom: 44px;
+  position: relative;
+}
+
+.findings {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 18px;
+  position: relative;
+}
+
+.finding {
+  background: rgba(244, 237, 224, 0.05);
+  border: 1px solid rgba(244, 237, 224, 0.15);
+  padding: 22px;
+  position: relative;
+}
+
+.finding::before {
+  content: '✓';
+  position: absolute;
+  top: 14px;
+  right: 16px;
+  font-family: 'Fraunces', serif;
+  font-size: 18px;
+  color: var(--accent-soft);
+}
+
+.finding-tag {
+  font-family: 'Inter Tight', sans-serif;
+  font-size: 9.5px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--accent-soft);
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.finding-headline {
+  font-family: 'Fraunces', serif;
+  font-size: 21px;
+  line-height: 1.25;
+  font-weight: 400;
+  margin-bottom: 8px;
+}
+
+.finding-detail {
+  font-size: 13.5px;
+  line-height: 1.5;
+  color: rgba(244, 237, 224, 0.65);
+}
+
+/* SYSTEM SECTION */
+.system {
+  background: var(--paper-dim);
+  padding: 90px 0;
+  position: relative;
+  z-index: 2;
+  border-top: 1px solid var(--rule);
+  border-bottom: 1px solid var(--rule);
+}
+
+.system h2 { max-width: 18ch; }
+
+/* CTA */
+.cta-section {
+  padding: 110px 0;
+  text-align: center;
+  position: relative;
+  z-index: 2;
+}
+
+.cta-mark {
+  font-family: 'Inter Tight', sans-serif;
+  font-size: 11px;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  color: var(--accent);
+  font-weight: 600;
+  margin-bottom: 26px;
+}
+
+.cta-section h2 {
+  font-family: 'Fraunces', serif;
+  font-size: clamp(32px, 4vw, 52px);
+  font-weight: 300;
+  line-height: 1.08;
+  letter-spacing: -0.02em;
+  margin: 0 auto 26px;
+  max-width: 22ch;
+  font-variation-settings: "opsz" 144;
+}
+
+.cta-section h2 em {
+  font-style: italic;
+  color: var(--accent);
+}
+
+.cta-section p {
+  font-size: 19px;
+  line-height: 1.55;
+  max-width: 36em;
+  margin: 0 auto 44px;
+  color: var(--ink-soft);
+}
+
+.cta-button {
+  display: inline-block;
+  font-family: 'Inter Tight', sans-serif;
+  font-size: 13px;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  font-weight: 600;
+  padding: 18px 36px;
+  background: var(--ink);
+  color: var(--paper);
+  text-decoration: none;
+  border: 1px solid var(--ink);
+  transition: all 0.2s;
+  position: relative;
+}
+
+.cta-button:hover {
+  background: var(--accent);
+  border-color: var(--accent);
+}
+
+.cta-button .arrow {
+  display: inline-block;
+  margin-left: 10px;
+  transition: transform 0.2s;
+}
+
+.cta-button:hover .arrow { transform: translateX(4px); }
+
+.cta-secondary {
+  display: block;
+  margin-top: 26px;
+  font-family: 'Inter Tight', sans-serif;
+  font-size: 12px;
+  letter-spacing: 0.1em;
+  color: var(--ink-fade);
+  text-decoration: none;
+}
+
+.cta-secondary:hover { color: var(--accent); }
+
+/* FOOTER */
+footer {
+  padding: 60px 0 70px;
+  border-top: 1px solid var(--rule);
+  background: var(--paper);
+  position: relative;
+  z-index: 2;
+}
+
+footer .foot-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 40px;
+  margin-bottom: 48px;
+}
+
+footer h4 {
+  font-family: 'Inter Tight', sans-serif;
+  font-size: 11px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--accent);
+  font-weight: 600;
+  margin-bottom: 16px;
+}
+
+footer p, footer li {
+  font-size: 14px;
+  line-height: 1.6;
+  color: var(--ink-soft);
+  margin-bottom: 8px;
+  list-style: none;
+}
+
+footer a {
+  color: var(--ink);
+  text-decoration: none;
+  border-bottom: 1px solid var(--rule);
+}
+
+footer a:hover {
+  color: var(--accent);
+  border-color: var(--accent);
+}
+
+.foot-rule {
+  font-family: 'Inter Tight', sans-serif;
+  font-size: 11px;
+  color: var(--ink-faint);
+  letter-spacing: 0.05em;
+  padding-top: 24px;
+  border-top: 1px solid var(--rule);
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+/* ANIMATIONS */
+.reveal {
+  opacity: 0;
+  transform: translateY(24px);
+  transition: opacity 0.9s cubic-bezier(0.16, 1, 0.3, 1), transform 0.9s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.reveal.visible { opacity: 1; transform: translateY(0); }
+
+@media (max-width: 760px) {
+  body { font-size: 17px; }
+  .container { padding: 0 22px; }
+  .section { padding: 60px 0; }
+  .hero { padding: 50px 0 60px; }
+  .hero h1 { font-size: 38px; max-width: 100%; }
+  .hero-deck { font-size: 16px; }
+  .section h2 { font-size: 30px; }
+  .section p { font-size: 17px; }
+  .nav { display: none; }
+  .doc-card { padding: 20px; font-size: 12px; }
+  .decision { padding: 60px 0; }
+  .system { padding: 60px 0; }
+  .asymmetry { padding: 22px; }
+  .asym-row { grid-template-columns: 1fr; gap: 6px; }
+  .asym-bar { height: 18px; }
+  .asym-figure { text-align: left; }
+  .cta-section { padding: 70px 0; }
+  .htl-events { grid-template-columns: 1fr; gap: 20px; }
+  .htl-line, .htl-line-progress { display: none; }
+  .htl-event { padding-left: 22px; position: relative; }
+  .htl-event .htl-dot { position: absolute; left: 0; top: 4px; margin: 0; }
+  .hero-conclusion { grid-template-columns: 1fr; gap: 14px; padding: 22px; }
+  .hero-byline { font-size: 11px; }
+}
+
+@media (min-width: 761px) and (max-width: 1100px) {
+  .htl-event-label { font-size: 10.5px; padding-right: 8px; }
+}
+
+::selection { background: var(--accent); color: var(--paper); }
+
+/* Force light styling regardless of user system preference.
+   The design is built around cream paper. iOS sometimes auto-inverts
+   colours on light sites with dark mode enabled. This prevents that. */
+@media (prefers-color-scheme: dark) {
+  :root {
+    color-scheme: light only;
+  }
+  html, body {
+    background: #f4ede0 !important;
+    color: #1a1a1a !important;
+  }
+  .section, .hero, footer, .cta-section {
+    background: #f4ede0 !important;
+  }
+  .system {
+    background: #ece4d3 !important;
+  }
+  .decision {
+    background: #1a1a1a !important;
+    color: #f4ede0 !important;
+  }
+  .doc-card {
+    background: #fdfaf2 !important;
+    color: #2a2a2a !important;
+  }
+  .asymmetry, .hero-conclusion {
+    background: #ece4d3 !important;
+  }
+  .nav {
+    background: rgba(244, 237, 224, 0.85) !important;
+    color: #555 !important;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="progress-rail"><div class="progress-bar" id="progressBar"></div></div>
+
+<div class="nav">
+  <span>LON/00AX/LSC/2025/0637</span> · <span class="case-ref">DECIDED</span>
+</div>
+
+<!-- HERO with timeline at top -->
+<section class="hero">
+  <div class="container">
+    <div class="hero-eyebrow">A Case Study in Leasehold</div>
+    <h1>The anatomy of a <span class="em">service charge</span>.</h1>
+    <div class="hero-deck">
+      In November 2025, the First-tier Tribunal ruled on a service charge dispute at a small suburban block of flats in Greater London. The decision was unremarkable in legal terms. The eighteen months of work required to obtain it were not.
+    </div>
+
+    <div class="hero-timeline">
+      <div class="hero-timeline-label">
+        <span>The dispute, beginning to end</span>
+        <span class="duration">May 2024 to May 2026 (~24 months)</span>
+      </div>
+
+      <div class="htl-track" id="heroTrack">
+        <div class="htl-line"></div>
+        <div class="htl-line-progress" id="htlLineProgress"></div>
+
+        <div class="htl-events">
+          <div class="htl-event">
+            <div class="htl-dot"></div>
+            <span class="htl-date">May 2024</span>
+            <div class="htl-event-label">First written request to FirstPort</div>
+          </div>
+          <div class="htl-event major">
+            <div class="htl-dot"></div>
+            <span class="htl-date">Jun 2024</span>
+            <div class="htl-event-label">Stage 1 complaint filed</div>
+          </div>
+          <div class="htl-event">
+            <div class="htl-dot"></div>
+            <span class="htl-date">Aug 2024</span>
+            <div class="htl-event-label">Eight-week clock expires</div>
+          </div>
+          <div class="htl-event major">
+            <div class="htl-dot"></div>
+            <span class="htl-date">Jan 2025</span>
+            <div class="htl-event-label">Tribunal application filed</div>
+          </div>
+          <div class="htl-event">
+            <div class="htl-dot"></div>
+            <span class="htl-date">Feb 2025</span>
+            <div class="htl-event-label">Respondent's case filed</div>
+          </div>
+          <div class="htl-event outcome">
+            <div class="htl-dot"></div>
+            <span class="htl-date">Nov 2025</span>
+            <div class="htl-event-label">Tribunal decision</div>
+          </div>
+          <div class="htl-event outcome">
+            <div class="htl-dot"></div>
+            <span class="htl-date">May 2026</span>
+            <div class="htl-event-label">Refund credited</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="hero-conclusion">
+      <div class="hero-conclusion-label">The outcome</div>
+      <div class="hero-conclusion-text">
+        Reserve fund of <span class="figure">£1,419.61</span> struck out. Management fees reduced. Section 20C and Paragraph 5A orders made. Costs barred. Refund recovered as a credit against future charges.
+      </div>
+    </div>
+
+    <div class="hero-byline">
+      <span>By <strong>Chirag Vadhia</strong>. Leaseholder, Greater London.</span>
+      <div class="scroll-cue">
+        Read the story
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+          <path d="M12 5v14M5 12l7 7 7-7"/>
+        </svg>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 1. THE FLAT -->
+<section class="section">
+  <div class="container">
+    <div class="section-mark"><span class="num">i.</span> The flat</div>
+    <h2>A small block. Twenty-three flats. <em>One freeholder you have never met.</em></h2>
+
+    <p class="lede reveal">A small suburban block in Greater London. Twenty-three flats. The freehold is owned by Proxima GR Properties Ltd. The day-to-day management is handled by FirstPort, the largest residential property manager in the UK, which manages around 320,000 homes nationwide.</p>
+
+    <p class="dropcap reveal">If you live in a flat in England, you almost certainly do not own it. You own a long lease, typically 99, 125 or 999 years. The freehold sits with someone else. They appoint a managing agent, who deals with you. You pay a service charge each year for the running of the building. You have limited say in what those charges are, who provides the services, or what happens to the money.</p>
+
+    <p class="reveal">This is the system. Around 4.6 million homes in England are leasehold. For most leaseholders, most of the time, the system is invisible. The bins get emptied. The building stays standing. The service charge gets paid.</p>
+
+    <p class="reveal">It becomes visible when something does not add up.</p>
+  </div>
+</section>
+
+<!-- 2. THE TRIGGER -->
+<section class="section">
+  <div class="container">
+    <div class="section-mark"><span class="num">ii.</span> The trigger</div>
+    <h2>The reserve fund jumped. <em>No explanation arrived with it.</em></h2>
+
+    <p class="reveal">In early 2024, FirstPort issued the service charge demand for the year ahead. Buried in the breakdown was a contribution to the reserve fund, the pool of money built up over time to pay for major works on the building.</p>
+
+    <p class="reveal">The figure for 2023-24 was £1,419.61 from one flat alone. Across the block, the reserve fund was being topped up by tens of thousands of pounds. There was no asset management plan attached. No condition survey. No costed schedule of anticipated works. Just the figure.</p>
+
+    <div class="doc-card reveal">
+      <div class="doc-meta">
+        <span class="doc-tag">EMAIL</span>
+        <span>Leaseholder to FirstPort, May 2024</span>
+      </div>
+      <p>Could you please send me the asset management plan or schedule of major works that the reserve fund contribution is being collected against?</p>
+      <p>I would like to understand <span class="highlight-text">what specifically the £1,419.61 is being held for</span> and over what timeframe.</p>
+    </div>
+
+    <p class="reveal">The reply did not contain an asset management plan. There was not one. The reserve fund was being collected against an unspecified set of future works that no one could itemise.</p>
+  </div>
+</section>
+
+<!-- 3. THE COMPLAINT -->
+<section class="section">
+  <div class="container">
+    <div class="section-mark"><span class="num">iii.</span> The complaint</div>
+    <h2>Stage 1. Stage 2. <em>Same answer.</em></h2>
+
+    <p class="reveal">FirstPort, like all property managing agents in England, is required to operate an internal complaints process. Two stages. Stage 1 is handled by a complaints officer. Stage 2 is meant to be handled by someone more senior. The process is supposed to take eight weeks.</p>
+
+    <p class="reveal">A formal Stage 1 complaint went in on 29 June 2024. The substance was straightforward. The reserve fund contribution had not been justified. The management fees were unexplained. Several requests for documents had gone unanswered.</p>
+
+    <div class="timeline reveal">
+      <div class="tl-item major">
+        <span class="tl-date">29 JUN 2024</span>
+        <div class="tl-event">Stage 1 complaint filed</div>
+        <div class="tl-detail">Substantive issues raised: reserve fund justification, management fees, document requests outstanding.</div>
+      </div>
+      <div class="tl-item">
+        <span class="tl-date">23 JUL 2024</span>
+        <div class="tl-event">Holding email received</div>
+        <div class="tl-detail">FirstPort confirms receipt with a complaint reference. No engagement with the substance.</div>
+      </div>
+      <div class="tl-item">
+        <span class="tl-date">27 JUL 2024</span>
+        <div class="tl-event">Stage 2 escalation</div>
+        <div class="tl-detail">Fifteen working days exceeded with no substantive response. Complaint escalated.</div>
+      </div>
+      <div class="tl-item">
+        <span class="tl-date">28 AUG 2024</span>
+        <div class="tl-event">Eight-week clock expires</div>
+        <div class="tl-detail">Eligibility for The Property Ombudsman opens. Substantive response still not received.</div>
+      </div>
+      <div class="tl-item major">
+        <span class="tl-date">SEP 2024</span>
+        <div class="tl-event">Final Response received</div>
+        <div class="tl-detail">The reserve fund question is answered in three sentences. The management fee question is not answered.</div>
+      </div>
+    </div>
+
+    <p class="reveal">By the end of the internal complaints process, the substantive questions had been live for six months. None had been substantively answered. What had been demonstrated, repeatedly and in writing, was that the questions would not be answered through this route.</p>
+
+    <p class="reveal">This is what the internal complaints process does. It is not a forum for resolving substantive disputes. It is a procedural step that has to be completed before a leaseholder can do anything else.</p>
+  </div>
+</section>
+
+<!-- 4. THE PARALLEL TRACKS -->
+<section class="section">
+  <div class="container">
+    <div class="section-mark"><span class="num">iv.</span> The parallel tracks</div>
+    <h2>An MP. The auditor. The FCA. <em>None resolves a service charge dispute.</em></h2>
+
+    <p class="reveal">In parallel with the internal complaints process, several other routes were available. Each is supposed to provide some form of accountability. None resolves the substantive question of whether a charge is reasonable.</p>
+
+    <h3 class="reveal">The Member of Parliament</h3>
+    <p class="reveal">The leaseholder's MP was copied into correspondence from August 2024. Letters went to the relevant Minister at MHCLG. Responses came back. They restated the government's general position on leasehold reform. They did not ask FirstPort to provide the asset management plan.</p>
+
+    <h3 class="reveal">The auditor</h3>
+    <p class="reveal">FirstPort's accounts are audited by BDO. A formal letter went to BDO in September 2024 raising concerns about reserve fund treatment in the audited accounts. BDO acknowledged receipt. Their position was that the audit is of the company, not of the leaseholders' interests.</p>
+
+    <h3 class="reveal">The Financial Conduct Authority</h3>
+    <p class="reveal">FirstPort's buildings insurance was placed through a related broker. Under FCA rules introduced in late 2023, brokers must treat leaseholders as customers and disclose commission structures. A formal request for commission disclosure was sent. The disclosure showed approximately 30% of the insurance premium was being absorbed by broker remuneration.</p>
+
+    <p class="reveal">By December 2024 the picture was clear. The internal complaints process had run its course. The MP and the auditor had been engaged. The FCA route had produced documents but no resolution. The substantive questions about whether the reserve fund and the management fees were reasonable were unanswered.</p>
+
+    <p class="reveal">There was one forum left.</p>
+  </div>
+</section>
+
+<!-- 5. THE TRIBUNAL -->
+<section class="section">
+  <div class="container">
+    <div class="section-mark"><span class="num">v.</span> The tribunal</div>
+    <h2>£114 to apply. £227 for the hearing. <em>The only forum that can decide.</em></h2>
+
+    <p class="reveal">The First-tier Tribunal (Property Chamber) is the statutory body that decides whether service charges are reasonable in England. An application is made under Section 27A of the Landlord and Tenant Act 1985. The forms are available online. They are designed for leaseholders, not lawyers.</p>
+
+    <p class="reveal">The application was filed on 4 January 2025. The respondent, at the tribunal's direction, was Proxima GR Properties Ltd, the freeholder. FirstPort, the managing agent, would appear on the freeholder's behalf, represented by JB Leitch, a London law firm.</p>
+
+    <p class="reveal">JB Leitch's first move, in their Statement of Case, was to argue that the application should be struck out.</p>
+
+    <div class="doc-card reveal">
+      <div class="doc-meta">
+        <span class="doc-tag">RESPONDENT'S CASE</span>
+        <span>JB Leitch on behalf of Proxima GR Properties Ltd, February 2025</span>
+      </div>
+      <p>The Applicant's case is <span class="highlight-text">bare and insufficient</span>. The Applicant has failed to particularise his challenges to any reasonable standard. In the absence of specific grounds, supported by evidence, the application cannot succeed and should be struck out.</p>
+    </div>
+
+    <p class="reveal">The phrase appeared six times across the document. The application was bare. It was insufficient. It was unsubstantiated. Other defences followed familiar patterns: wrong respondent, lease entitlement, market-rate reasonableness. The tribunal panel, two of whom were practising professionals in property law, would have seen the pattern many times.</p>
+  </div>
+</section>
+
+<!-- 6. THE ASYMMETRY -->
+<section class="section">
+  <div class="container">
+    <div class="section-mark"><span class="num">vi.</span> The asymmetry</div>
+    <h2>One leaseholder. <em>One law firm.</em></h2>
+
+    <p class="reveal">The tribunal is meant to be accessible to self-representing leaseholders. The forms are written in plain English. The hearings are informal. There is no requirement for legal representation.</p>
+
+    <p class="reveal">In practice, the leaseholder represents himself while preparing the case in evenings and weekends. The respondent instructs counsel from a specialist law firm. The work goes onto a billable hour ledger. The cost, in many cases, can be recovered through the service charge.</p>
+
+    <div class="asymmetry reveal">
+      <div class="asym-title">Resource asymmetry, January to November 2025</div>
+
+      <div class="asym-row">
+        <div class="asym-label">Leaseholder</div>
+        <div class="asym-bar" style="--scale: 0.35;"></div>
+        <div class="asym-figure">~100 hrs</div>
+      </div>
+      <div class="asym-row">
+        <div class="asym-label">Self-represented</div>
+        <div class="asym-bar them" style="--scale: 0.04;"></div>
+        <div class="asym-figure">£0</div>
+      </div>
+      <div class="asym-row">
+        <div class="asym-label">Respondent's counsel</div>
+        <div class="asym-bar them" style="--scale: 0.85;"></div>
+        <div class="asym-figure">~£15-30k</div>
+      </div>
+      <div class="asym-row">
+        <div class="asym-label">Specialist law firm</div>
+        <div class="asym-bar them" style="--scale: 1.0;"></div>
+        <div class="asym-figure">Full-time</div>
+      </div>
+
+      <div class="asym-caption">
+        A managing agent's legal costs are an ordinary line item in their operating budget. A leaseholder's time is taken from the rest of their life.
+      </div>
+    </div>
+
+    <p class="reveal">The leaseholders who go to tribunal are a small fraction of those with legitimate grievances. They are not necessarily the most aggrieved. They are the most willing to keep showing up at directions deadlines.</p>
+  </div>
+</section>
+
+<!-- 7. THE DECISION -->
+<section class="decision">
+  <div class="container">
+    <div class="decision-mark">12 November 2025. LON/00AX/LSC/2025/0637</div>
+    <h2>The Tribunal <em>found</em> for the leaseholder.</h2>
+    <div class="decision-deck">
+      A reasoned decision, issued in writing. Item by item. Specific and final.
+    </div>
+
+    <div class="findings">
+      <div class="finding">
+        <div class="finding-tag">Reserve Fund</div>
+        <div class="finding-headline">Struck out in full</div>
+        <div class="finding-detail">£1,419.61 contribution for 2023-24 determined not payable. No asset management plan. No costed schedule of works.</div>
+      </div>
+      <div class="finding">
+        <div class="finding-tag">Management Fees</div>
+        <div class="finding-headline">Reduced</div>
+        <div class="finding-detail">Management fees for 2023-24 and 2024-25 found to be unreasonable in the level demanded.</div>
+      </div>
+      <div class="finding">
+        <div class="finding-tag">Section 20C Order</div>
+        <div class="finding-headline">Granted</div>
+        <div class="finding-detail">FirstPort barred from recovering its legal costs of the proceedings through future service charges.</div>
+      </div>
+      <div class="finding">
+        <div class="finding-tag">Paragraph 5A Order</div>
+        <div class="finding-headline">Granted</div>
+        <div class="finding-detail">Costs cannot be recovered as administration charges. Both routes closed.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 8. THE AFTERMATH -->
+<section class="section">
+  <div class="container">
+    <div class="section-mark"><span class="num">vii.</span> The aftermath</div>
+    <h2>The decision determines what was reasonable. <em>It does not transfer money.</em></h2>
+
+    <p class="reveal">Most leaseholders do not know this until they win. The tribunal rules. The landlord still has the money. Recovery is a separate process.</p>
+
+    <p class="reveal">A formal demand letter went out: principal disallowed, plus 8% statutory interest from the dates of payment, plus reimbursement of the tribunal fees the panel had ordered. Total claimed: £1,806.11.</p>
+
+    <p class="reveal">The response came through E&M Legal, on behalf of Proxima. The defendant in the tribunal had been Proxima. The tribunal had expressly amended the respondent to Proxima. The response argued that Proxima was the wrong party for the refund. FirstPort, separately, had credited £1,865.31 to the service charge account. The credit would offset the next half-yearly service charge demand of £1,821.69, leaving a small balance.</p>
+
+    <p class="reveal">A County Court claim had been filed by then. It was discontinued, on a no-costs basis, once the credit was confirmed. The principal had been recovered as a credit against a future demand from the same company for the same building.</p>
+  </div>
+</section>
+
+<!-- 9. THE SYSTEM -->
+<section class="system">
+  <div class="container">
+    <div class="section-mark"><span class="num">viii.</span> The system</div>
+    <h2>£1,419.61, and everything required to recover it.</h2>
+
+    <p class="reveal">The case is unremarkable. A modest sum, a modest block, a leaseholder who pursued it through the available routes and won. Hundreds of similar cases are decided by the First-tier Tribunal each year. Thousands more never make it that far. They are abandoned, settled informally, or never raised at all because the dispute is too small relative to the cost of pursuing it.</p>
+
+    <p class="reveal">The point of this case study is what was required to recover £1,419.61. The leaseholder had to become a part-time legal expert. He had to learn the structure of the Landlord and Tenant Act 1985. He had to navigate two stages of an internal complaints process designed not to resolve disputes but to delay them. He had to engage an MP, an auditor, and a regulator in parallel. He had to prepare a tribunal application, a statement of case, witness evidence, and a hearing strategy. He had to sit across from a barrister at a hearing while representing himself. After winning, he had to file a County Court claim to recover the money the tribunal had said was never properly his to lose.</p>
+
+    <p class="reveal">All of this took eighteen months. All of this for a sum that is a rounding error in the operating economics of a national property manager.</p>
+
+    <div class="fig-row reveal">
+      <div class="fig">
+        <span class="figure">4.6m</span>
+        <span class="label">Leasehold homes<br>in England</span>
+      </div>
+      <div class="fig">
+        <span class="figure">~6,000</span>
+        <span class="label">FtT (Property Chamber)<br>cases per year</span>
+      </div>
+      <div class="fig">
+        <span class="figure">&lt;1%</span>
+        <span class="label">Of disputes that<br>reach tribunal</span>
+      </div>
+      <div class="fig">
+        <span class="figure">100<span style="color: var(--ink-fade); font-weight: 300">+</span></span>
+        <span class="label">Hours required to<br>self-represent</span>
+      </div>
+    </div>
+
+    <p class="reveal">The Leasehold and Freehold Reform Act 2024 acknowledges some of this. Most of its provisions remain unimplemented. The Renters' Rights Act 2025 does not change the underlying architecture.</p>
+
+    <p class="reveal">Leaseholders who notice something is wrong have a choice. They can pay the unreasonable charge and move on. Or they can spend eighteen months of evenings and weekends to recover what should never have been demanded.</p>
+  </div>
+</section>
+
+<!-- CTA -->
+<section class="cta-section">
+  <div class="container">
+    <div class="cta-mark">If this is happening to you</div>
+    <h2>There is a <em>practical guide</em> for going through this.</h2>
+    <p>The Leaseholder's Toolkit is a phase-by-phase walkthrough of the entire process: from first noticing a problem, through the internal complaints process, external escalation, the First-tier Tribunal, and recovery of money owed. It is anonymous, generic, and free. It is not legal advice.</p>
+
+    <a href="/Leaseholders_Toolkit.pdf" class="cta-button" id="toolkitLink">
+      Read the Toolkit
+      <span class="arrow">→</span>
+    </a>
+    <a href="/Leaseholders_Toolkit.pdf" class="cta-secondary">PDF, 92 pages, ~30,000 words</a>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="container">
+    <div class="foot-grid">
+      <div>
+        <h4>Case</h4>
+        <p>LON/00AX/LSC/2025/0637</p>
+        <p>First-tier Tribunal (Property Chamber)</p>
+        <p>Decided 12 November 2025</p>
+      </div>
+      <div>
+        <h4>Property</h4>
+        <p>23-flat residential block</p>
+        <p>Greater London</p>
+      </div>
+      <div>
+        <h4>Parties</h4>
+        <p>Applicant: Chirag Vadhia</p>
+        <p>Respondent: Proxima GR Properties Ltd</p>
+        <p>Managing Agent: FirstPort</p>
+      </div>
+      <div>
+        <h4>Resources</h4>
+        <ul>
+          <li><a href="/Leaseholders_Toolkit.pdf">The Leaseholder's Toolkit (PDF)</a></li>
+          <li><a href="https://www.lease-advice.org">LEASE</a></li>
+          <li><a href="https://www.leaseholdknowledge.com">Leasehold Knowledge Partnership</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="foot-rule">
+      <span>This site documents one tribunal case. It is not legal advice.</span>
+      <span>© 2026. Published as a public-interest case study.</span>
+    </div>
+  </div>
+</footer>
+
+<script>
+const progressBar = document.getElementById('progressBar');
+window.addEventListener('scroll', () => {
+  const scrolled = window.scrollY;
+  const height = document.documentElement.scrollHeight - window.innerHeight;
+  const pct = (scrolled / height) * 100;
+  progressBar.style.width = pct + '%';
+});
+
+const revealObserver = new IntersectionObserver((entries) => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      entry.target.classList.add('visible');
+      revealObserver.unobserve(entry.target);
+    }
+  });
+}, { threshold: 0.15, rootMargin: '0px 0px -40px 0px' });
+
+document.querySelectorAll('.reveal').forEach((el) => {
+  const parent = el.parentElement;
+  const sameParent = Array.from(parent.children).filter(c => c.classList.contains('reveal'));
+  const idx = sameParent.indexOf(el);
+  if (idx >= 0 && idx < 4) {
+    el.style.transitionDelay = (idx * 0.08) + 's';
+  }
+  revealObserver.observe(el);
+});
+
+const asymRows = document.querySelectorAll('.asym-row');
+const asymObserver = new IntersectionObserver((entries) => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      entry.target.classList.add('visible');
+      asymObserver.unobserve(entry.target);
+    }
+  });
+}, { threshold: 0.4 });
+asymRows.forEach(row => asymObserver.observe(row));
+
+window.addEventListener('load', () => {
+  setTimeout(() => {
+    const track = document.getElementById('heroTrack');
+    const lineProgress = document.getElementById('htlLineProgress');
+    if (track) track.classList.add('active');
+    if (lineProgress) lineProgress.style.width = '100%';
+  }, 300);
+});
+</script>
+
+</body>
+</html>
