@@ -1,0 +1,179 @@
+:root {
+  --ink: #1a1a18;
+  --ink-soft: #55534e;
+  --ground: #fbfaf7;
+  --panel: #f2f0ea;
+  --rule: #d8d4c9;
+  --accent: #7a2e1e;
+  --accent-soft: #a4553f;
+  --measure: 34rem;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --ink: #e8e5de;
+    --ink-soft: #a8a49a;
+    --ground: #16151300;
+    --ground: #161513;
+    --panel: #201e1b;
+    --rule: #35322c;
+    --accent: #d98b73;
+    --accent-soft: #c4735c;
+  }
+}
+:root[data-theme="dark"] {
+  --ink: #e8e5de;
+  --ink-soft: #a8a49a;
+  --ground: #161513;
+  --panel: #201e1b;
+  --rule: #35322c;
+  --accent: #d98b73;
+  --accent-soft: #c4735c;
+}
+
+* { box-sizing: border-box; }
+
+html {
+  font-size: 17px;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0 auto;
+  padding: 2.5rem 1.25rem 6rem;
+  max-width: var(--measure);
+  background: var(--ground);
+  color: var(--ink);
+  font-family: Charter, "Bitstream Charter", "Iowan Old Style", Georgia, "Liberation Serif", serif;
+  line-height: 1.62;
+  font-kerning: normal;
+}
+
+header#title-block-header {
+  margin-bottom: 3rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 3px solid var(--accent);
+}
+h1.title {
+  font-size: 2.1rem;
+  line-height: 1.15;
+  margin: 0 0 .4rem;
+  letter-spacing: -0.015em;
+  text-wrap: balance;
+}
+p.subtitle {
+  margin: 0;
+  color: var(--ink-soft);
+  font-size: 1.05rem;
+  font-style: italic;
+}
+p.date { color: var(--ink-soft); font-size: .9rem; margin-top: .6rem; }
+
+h1, h2, h3 {
+  font-family: "Helvetica Neue", Helvetica, "Liberation Sans", Arial, sans-serif;
+  line-height: 1.25;
+  text-wrap: balance;
+}
+h1 {
+  font-size: 1.55rem;
+  margin: 3.5rem 0 1.2rem;
+  padding-top: 1.4rem;
+  border-top: 1px solid var(--rule);
+  letter-spacing: -0.01em;
+}
+h2 {
+  font-size: 1.13rem;
+  margin: 2.4rem 0 .7rem;
+  color: var(--accent);
+}
+h3 { font-size: 1rem; margin: 1.8rem 0 .5rem; }
+
+p { margin: 0 0 1.05rem; }
+
+a { color: var(--accent); text-underline-offset: 2px; }
+a:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; border-radius: 2px; }
+
+ul, ol { margin: 0 0 1.15rem; padding-left: 1.35rem; }
+li { margin-bottom: .5rem; }
+li > ul, li > ol { margin-top: .5rem; }
+
+strong { font-weight: 700; }
+
+blockquote {
+  margin: 1.3rem 0;
+  padding: .2rem 0 .2rem 1.1rem;
+  border-left: 3px solid var(--accent-soft);
+  color: var(--ink-soft);
+}
+
+code, pre {
+  font-family: ui-monospace, "SF Mono", Menlo, "DejaVu Sans Mono", monospace;
+  font-size: .88em;
+}
+pre {
+  background: var(--panel);
+  padding: 1rem;
+  border-radius: 4px;
+  overflow-x: auto;
+  line-height: 1.5;
+}
+
+/* tables scroll inside their own container, never the page */
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 1.3rem 0;
+  font-size: .93rem;
+  font-variant-numeric: tabular-nums;
+  display: block;
+  overflow-x: auto;
+  white-space: nowrap;
+}
+th, td {
+  border: 1px solid var(--rule);
+  padding: .5rem .65rem;
+  text-align: left;
+  vertical-align: top;
+}
+th {
+  background: var(--panel);
+  font-family: "Helvetica Neue", Helvetica, sans-serif;
+  font-size: .85rem;
+  font-weight: 600;
+}
+@media (min-width: 700px) {
+  table { display: table; white-space: normal; }
+}
+
+nav#TOC {
+  background: var(--panel);
+  border: 1px solid var(--rule);
+  border-radius: 5px;
+  padding: 1.4rem 1.5rem;
+  margin-bottom: 3rem;
+  font-family: "Helvetica Neue", Helvetica, sans-serif;
+  font-size: .93rem;
+  line-height: 1.5;
+}
+nav#TOC::before {
+  content: "Contents";
+  display: block;
+  font-weight: 700;
+  font-size: .78rem;
+  letter-spacing: .09em;
+  text-transform: uppercase;
+  color: var(--ink-soft);
+  margin-bottom: .9rem;
+}
+nav#TOC ul { list-style: none; padding-left: 0; margin: 0; }
+nav#TOC ul ul { padding-left: 1rem; margin: .35rem 0; }
+nav#TOC li { margin-bottom: .3rem; }
+nav#TOC a { text-decoration: none; }
+nav#TOC a:hover { text-decoration: underline; }
+
+hr { border: 0; border-top: 1px solid var(--rule); margin: 2.5rem 0; }
+
+@media print {
+  body { max-width: none; }
+  nav#TOC { break-after: page; }
+}
