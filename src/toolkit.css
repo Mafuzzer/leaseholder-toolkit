@@ -30,3 +30,6 @@ blockquote { margin: .8em 0 .8em 1em; padding-left: .9em; border-left: 3px solid
 #TOC li { margin-bottom: .18em; }
 a { color: #111; text-decoration: none; }
 h3 { font-family: "Liberation Sans", sans-serif; font-size: 10.5pt; margin: 1.3em 0 .4em; break-after: avoid; }
+/* Section D: force the decision tree onto its own page and size it to fit */
+#section-d-one-page-decision-tree { break-before: page; }
+#section-d-one-page-decision-tree ~ pre { font-size: 7.5pt; line-height: 1.25; break-inside: avoid; }

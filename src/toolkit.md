@@ -7,7 +7,7 @@ lang: en-GB
 
 About this toolkit This is a practical guide for leaseholders in England facing disputes about service charges. It walks through every phase of the process — from first noticing a problem, through the internal complaints process, external escalation, the First-tier Tribunal, and the recovery of money owed.
 
-It is anonymous and generic. It is not legal advice. Where your situation is unusual, complex, or high- value, get qualified advice from a specialist solicitor or LEASE.
+It is anonymous and generic. It is not legal advice. Where your situation is unusual, complex, or high-value, get qualified advice from a specialist solicitor or LEASE.
 
 The toolkit is designed to be read either as a single document, start to finish, or as reference material — jumping to the relevant phase as you reach it.
 
@@ -38,10 +38,13 @@ There are situations where a self-directed approach is unwise. If any of the fol
 - Your case involves a dispute over the lease itself (e.g. lease extension, enfranchisement)
 - Your case involves Right to Manage, collective enfranchisement, or appointing a manager (these are
 statutory routes that benefit from specialist advice)
+
 - The facts of your case are genuinely complex (multiple buildings, mixed tenures, historic disputes,
 multi-party arrangements)
+
 - You are in a vulnerable position (mental health difficulties, financial hardship, language barriers,
 disability)
+
 - You feel out of your depth at any point
 
 Several organisations provide free, qualified advice to leaseholders. They are listed in the appendix. The Leasehold Advisory Service (LEASE) is a government-funded service that provides initial advice on leasehold matters. Citizens Advice can help with general housing issues. Shelter offers housing-related legal support. For complex matters, a solicitor specialising in property litigation is the right call.
@@ -61,10 +64,13 @@ challenging, and what kind of challenge it warrants.
 
 - Phase 2: Internal complaints process. Working through your managing agent’s own complaints
 procedure properly, before escalating outside the company.
+
 - Phase 3: External escalation. The redress schemes, your MP, regulators. What each can
 and cannot do.
+
 - Phase 4: First-tier Tribunal. When and how to apply, what to expect, how to prepare. Usually the
 substantive forum for service charge disputes.
+
 - Phase 5: After the decision. What happens after the tribunal rules. Recovering money. The County
 Court. Enforcement.
 
@@ -151,7 +157,7 @@ This is the bigger cost.
 
 That is hours of evenings, weekends, and lunch breaks spread across eighteen months to two years or more. It is not recoverable from the landlord, regardless of outcome.
 
-There is also an emotional cost that is harder to quantify but real: sustained low-level stress over many months, adversarial interactions with people managing your home, document-heavy work that can be mentally draining, and the experience of being a self-representing party against professionals with full- time staff. Most leaseholders who complete the journey describe it as worth the outcome but more demanding than they expected.
+There is also an emotional cost that is harder to quantify but real: sustained low-level stress over many months, adversarial interactions with people managing your home, document-heavy work that can be mentally draining, and the experience of being a self-representing party against professionals with full-time staff. Most leaseholders who complete the journey describe it as worth the outcome but more demanding than they expected.
 
 ## What you will need to bring
 
@@ -159,14 +165,19 @@ You do not need legal training, but you do need:
 
 - Organisation. A folder system (digital or physical) for correspondence, demands, accounts, and your
 own notes. Discipline to keep records of every interaction.
+
 - Time during weekday hours. Some communications and the hearing itself happen on weekdays.
 Flexibility to take occasional time off, or to handle phone calls during the day, helps.
+
 - Basic written communication skills. The ability to write clear, factual, structured letters and emails.
 Plain English is fine — you do not need legal language.
+
 - Patience. Long gaps between actions, slow responses, procedural delays, and moments when nothing
 visible is happening are part of the process.
+
 - Resilience. Setbacks, frustrations, and respondent tactics designed to wear you down are normal. The
 leaseholders who succeed are not the angriest; they are the most consistent.
+
 - Optional but helpful: access to a printer and scanner, a good filing system, and supportive people in
 your life who can hear you complain about it occasionally.
 
@@ -176,6 +187,7 @@ If you succeed at tribunal:
 
 - The disallowed charges themselves — the amounts the tribunal finds were unreasonable or not
 payable
+
 - Interest on amounts you have already paid, running from the date you paid them. This is claimed in the County Court after the tribunal decision — not by the tribunal itself. See Phase 5. It is conventionally claimed and awarded at 8% per annum simple, under section 69 of the County Courts Act 1984.
 - Your tribunal application and hearing fees (typically), if reimbursement is ordered
 - County Court fees, if you needed Phase 5 and the claim succeeded
@@ -187,6 +199,7 @@ You will not recover:
 - Your emotional investment
 - Most of your legal fees if you instructed a solicitor (small claims track and tribunal both have limited
 cost recovery)
+
 - Damages for inconvenience or distress (that is not what tribunals award)
 
 ## Where you can stop
@@ -212,10 +225,13 @@ A rough rule of thumb. For most leaseholders, the calculus looks something like 
 
 - Disputes under £500: typically not worth a full process. Phase 1 documentation may be useful for
 the future, but tribunal effort rarely repays for sums this small.
+
 - Disputes between £500 and £2,000: a judgment call. Often worth pursuing if there is a wider pattern
 of issues, less so if it’s a one-off.
+
 - Disputes over £2,000: usually worth pursuing if the case has merit, particularly because going to
 tribunal also produces forward-looking protections (Section 20C, Paragraph 5A) that can be worth more than the immediate refund.
+
 - Disputes that are part of a building-wide issue: even modest individual sums can be worth
 pursuing if they are part of a pattern affecting many leaseholders, because a tribunal decision sets a reference point others can rely on.
 
@@ -400,6 +416,7 @@ Sometimes the issue is simply that you do not understand what you are being char
 
 - Section 21 of the Landlord and Tenant Act 1985 gives leaseholders the right to request, in writing,
 a written summary of relevant costs for the last accounting year. The landlord must comply within one month of the request, or within six months of the end of the accounting period, whichever is later. Failure to comply without reasonable excuse is a summary offence punishable by a fine.
+
 - Section 22 of the Landlord and Tenant Act 1985 lets you inspect the documents behind the Section 21 summary — the accounts, receipts and invoices — and take copies. This is the more powerful of the two rights, because a summary on its own rarely tells you enough to challenge anything.
 
   **It expires after six months.** You have to ask, in writing, within six months of getting the summary. No tribunal and no court can extend that (section 22(2)).
@@ -413,8 +430,10 @@ a written summary of relevant costs for the last accounting year. The landlord m
   Once you ask, your landlord has to make the documents available for two months, starting no later than a month after your request. Inspecting them is free; they can charge a reasonable amount for copies (section 22(4)–(5)).
 
   Template letters for both requests are in the appendix — A4 for the Section 21 summary, A5 for the Section 22 inspection.
+
 - Section 21B of the Landlord and Tenant Act 1985 requires every service charge demand to be
 accompanied by a summary of leaseholders’ rights and obligations. If this is missing from a demand, the leaseholder is entitled to withhold payment until it is provided.
+
 - **Section 20B of the Landlord and Tenant Act 1985 — the 18-month rule.** There is a hard time limit on billing you for money the landlord has already spent.
 
   If a cost was incurred more than 18 months before the demand for it was served on you, you are not liable for the part of the service charge that reflects that cost. That is Section 20B(1).
@@ -527,10 +546,13 @@ For managing agents that are members of The Property Ombudsman scheme — which 
 
 - Initial enquiry / informal complaint. You raise a concern with the property manager or a customer
 service line. This is not yet a formal complaint and may not start any clock.
+
 - Stage 1 formal complaint. Once raised in writing as a formal complaint, the managing agent
 typically commits to acknowledging within 3 working days and providing a substantive response within 15 working days.
+
 - Stage 2 escalation. If the Stage 1 response is unsatisfactory, you can escalate to a more senior level
 of review, often a regional or senior manager. The response timeframe is usually another 15 working days.
+
 - Final viewpoint. The end of the internal process. The Final Viewpoint letter should set out the
 managing agent’s final position and inform you of your right to escalate to the redress scheme.
 
@@ -554,10 +576,12 @@ The point at which you escalate from enquiry to formal complaint is when one of 
 
 - You have made a reasonable enquiry in writing, and after a reasonable period (usually 10 to 14
 working days) you have received no substantive response
+
 - The response you received does not address the question you asked
 - The response makes assertions you can demonstrate are inaccurate
 - The managing agent is treating a substantive concern as a routine query and routing you back through
 customer service indefinitely
+
 - You have been told things will happen by a date and that date has passed without action
 
 In each of these situations, you escalate to a formal complaint not because you have lost patience but because the informal route has demonstrably failed.
@@ -580,10 +604,13 @@ The cardinal rule of the internal complaints process: everything in writing, eve
 
 - Send all complaints by email so there is a record. If you have to send something by post, send it by
 recorded delivery and keep the receipt.
+
 - After every phone call with the managing agent, send a follow-up email summarising what was
 discussed and agreed. Phrase it as a courtesy summary, not an interrogation. (“Thanks for the call this afternoon. Just to confirm what we agreed: by [date], you will provide [thing], and you will arrange [other thing]. Please let me know if I have misunderstood any of this.”)
+
 - If the managing agent makes a commitment in writing, save the email in a dedicated folder. If they
 make one verbally, document it via the email summary above.
+
 - Keep a running timeline document. A simple chronological log: date, what happened, what was said
 by whom, any deadline that was set or missed. Update it weekly. This becomes your single source of truth and is invaluable when later filing complaints, redress applications, or tribunal applications.
 
@@ -611,6 +638,7 @@ There is a critical threshold that most leaseholders don’t realise they have a
 
 - Eight weeks have passed since you first complained, and you have not received a final response,
 regardless of where the managing agent claims to be in their internal process, OR
+
 - The managing agent has issued a “final response” or “Final Viewpoint” letter — the formal end of
 their internal process — even if this happens earlier than eight weeks
 
@@ -650,13 +678,16 @@ Some practical guidance:
 
 - Allow the internal process to substantially run. A complaint that has been live for the full eight
 weeks, with documented failures or evasions on the managing agent’s part, is a stronger evidential foundation for a tribunal application than one cut short. There is rarely a reason to rush.
+
 - Wait for a Final Viewpoint letter where you can. A clear written statement that the managing agent
 will not change its position is the cleanest possible procedural record. It establishes that the internal route is exhausted, removing any later argument that you escalated prematurely.
+
 - Don’t wait if waiting is being weaponised against you. If the managing agent is using the internal
 process to run out the clock — repeatedly resetting, transferring, or refusing to acknowledge formal complaints — the eight-week threshold (or the faster four-week route) gives you the right to step out. You are not obligated to indulge their delays indefinitely.
 
 - Use the redress scheme when conduct is the issue. If you genuinely have a clean conduct case —
 not just frustration with their behaviour, but a documented breach of their procedure or the code of practice — the redress scheme is a legitimate parallel route. Just understand it will not rule on the substantive charges.
+
 - Begin tribunal preparation in parallel. You don’t have to wait until the internal process is fully
 complete before starting to gather what you’ll need for Phase 4. The two can run alongside each other.
 
@@ -670,6 +701,7 @@ This is the most common outcome. The Stage 1 response will typically:
 - Defend the charges as “in line with the lease”
 - Acknowledge any communication failures (sometimes with a small goodwill payment, sometimes
 without)
+
 - Decline to refund or reduce the substantive charges
 
 This is not a failure on your part. It is the predictable outcome of asking a managing agent to acknowledge they have overcharged you. They will rarely concede the substance.
@@ -678,8 +710,10 @@ What you do next depends on what the Stage 1 response said:
 
 - If they have addressed the substance and you are persuaded by their reasoning — even if you
 don’t love it — consider whether continuing is worth your time.
+
 - If they have not addressed the substance, or addressed it in ways that are factually wrong, or
 relied on assertions you can disprove — escalate to Stage 2.
+
 - If they have made the substantive position clear and you disagree, but the response is essentially
 honest — Stage 2 may not add much. You may be ready to think about external escalation.
 
@@ -695,6 +729,7 @@ Such offers typically have two characteristics worth noting:
 
 - The compensation is usually for the process failures (poor communication, delays in responding)
 rather than for the substantive matter in dispute (the level of the disputed charge itself)
+
 - Acceptance is typically framed as “full and final settlement” of the complaint
 
 The risk: if you accept a small compensation offer for process failures, the managing agent or its redress scheme may later argue that the matter is settled, and use that acceptance against you if you continue to pursue the substantive dispute (for example at tribunal). At minimum, the existence of an accepted settlement complicates your position in any later proceedings.
@@ -709,8 +744,10 @@ The internal process has run its course when one or more of these things is true
 
 - The managing agent has made a final position clear in writing — typically through a Final Viewpoint
 letter — and there is no reasonable prospect that further internal escalation will change it
+
 - The managing agent has demonstrably failed to engage within statutory or stated timeframes (eight
 weeks have passed without a final response, or the managing agent has missed multiple stated response deadlines)
+
 - The managing agent has actively obstructed the complaint — refused to register it, refused to
 acknowledge it, or treated it solely as a routine enquiry despite repeated formal characterisation
 
@@ -718,8 +755,10 @@ When you reach this point, the appropriate next step depends on what your disput
 
 - If the substantive issue is about the level or reasonableness of charges — the most common
 situation — the next step is to begin preparing for an application to the First-tier Tribunal (Property Chamber). This is Phase 4 of this toolkit. The internal complaints record you have built becomes part of the evidence base for that application. The redress scheme is not the route that will resolve the substantive matter, regardless of how thoroughly you pursue it.
+
 - If the issue is purely about conduct — communication failures, complaint handling failures,
 breaches of codes of practice — the next step is to file a complaint with the redress scheme the managing agent belongs to (TPO or Property Redress). This is covered in Phase 3.
+
 - If both apply — and they often do — the two routes can run in parallel, but the tribunal route should
 be the priority for the substantive matter, with the redress scheme as a separate conduct claim.
 
@@ -733,10 +772,13 @@ Beyond the complaints correspondence itself, this is the phase to be quietly bui
 
 - Continuing to collect evidence identified in Phase 1 (service charge demands, accounts, lease,
 photographs)
+
 - Reaching out to other leaseholders in your building. If others are experiencing the same issues, that
 strengthens your position considerably. Keep a list of who has expressed concerns and what they have said.
+
 - Reading the managing agent’s published code of practice (RICS or ARMA codes commonly
 apply) — failures to follow the code can become grounds for redress scheme complaints
+
 - Familiarising yourself with the redress scheme the managing agent belongs to, so you are ready to
 escalate when the time comes
 
@@ -748,11 +790,13 @@ By the end of this phase, you should have:
 - A documented Stage 1 complaint and Stage 1 response
 - A documented Stage 2 escalation and Stage 2 response (or evidence that the managing agent failed to
 respond within the relevant timeframe)
+
 - A Final Viewpoint letter from the managing agent, or a clear demonstration that one has not been
 provided within the 8-week window
 
 - A clearer picture of whether the managing agent will engage substantively, and whether the dispute
 will need external resolution
+
 - An emerging evidence base for whatever route comes next
 
 If the managing agent has resolved the dispute to your satisfaction at this stage, the journey ends here. That is genuinely a good outcome.
@@ -775,9 +819,10 @@ It then offers a decision framework for which routes are worth pursuing in your 
 
 ## The redress schemes (TPO and Property Redress)
 
-Every property managing agent in England is required by law to belong to one of two government- approved redress schemes: The Property Ombudsman (TPO) or Property Redress (formerly the Property Redress). Most large managing agents are with TPO. Both schemes operate similarly. You can find which scheme your managing agent belongs to on its complaints procedure page or by searching the schemes’ member directories.
+Every property managing agent in England is required by law to belong to one of two government-approved redress schemes: The Property Ombudsman (TPO) or Property Redress (formerly the Property Redress Scheme). Most large managing agents are with TPO. Both schemes operate similarly. You can find which scheme your managing agent belongs to on its complaints procedure page or by searching the schemes’ member directories.
 
 What the redress schemes can do
+
 - Investigate complaints about the conduct of managing agents — communication failures, complaint
 handling, breaches of relevant codes of practice (RICS Service Charge Residential Management Code, ARMA Consumer Charter, Property Institute standards)
 
@@ -833,10 +878,13 @@ Sources: TPO Annual Review 2025, “2025 in numbers”; tpos.co.uk/consumers/how
 What this means in practice: even a relatively modest service charge dispute — say, £1,500 of overcharged management fees — is very unlikely to be recovered through a TPO award; the average leasehold award is under £250. The TPO is not the route to get money back. It is the route to get an acknowledgement of poor conduct, a procedural recommendation, and possibly a few hundred pounds for distress.
 
 When the redress scheme is worth pursuing
+
 - When your dispute is purely about conduct, not about the level of charges. You want a finding that
 the managing agent breached its procedural obligations, communicated poorly, mishandled your complaint. The redress scheme is the right forum for this.
+
 - When you want a parallel conduct finding alongside a tribunal application. A redress scheme
 decision against the managing agent on conduct can be useful background context for a tribunal hearing on the substantive matter, although the tribunal will reach its own findings on conduct as part of its decision.
+
 - When you have a relatively simple, quick-to-resolve grievance that doesn’t really warrant the time
 and cost of a tribunal application.
 
@@ -864,8 +912,10 @@ Three cautions, however:
 
 - Acceptance is “full and final settlement” of the complaint reviewed. Do not accept a TPO award
 that purports to settle the substantive service charge dispute, because the tribunal route would then likely be foreclosed. Accept only awards that are clearly limited to conduct findings or compensation for distress, and read the precise wording carefully.
+
 - Don’t run TPO purely to extract leverage. The schemes are not designed to be used as a tactical
 lever in tribunal proceedings, and pursuing a parallel complaint that you don’t really intend to engage with wastes everyone’s time, including your own. The reason to run a parallel complaint is that you genuinely have a clean conduct issue that the scheme can adjudicate, not because you want to put pressure on the company.
+
 - **TPO must stop looking at anything the tribunal is looking at.** Paragraph 11(b) of TPO’s Terms of Reference is the rule, and it is worth reading in full:
 
   “at any time that the Ombudsman finds out the specifics of the dispute (or part of the dispute) is being, is to be (within a 3-month timescale), or has been considered by a Court, or under another independent complaints, conciliation or arbitration procedure, they will discontinue their investigation into those matters. If that other body is not considering all aspects of the dispute or if that body is not designed to offer the outcomes as outlined in paragraph 8 above, to the Complainant, the Ombudsman may then resume consideration of the dispute. The Ombudsman may, at their discretion, determine that it is not proportionate to consider, or resume consideration of, the remaining matters.”
@@ -907,8 +957,10 @@ First, information leverage. When an MP writes to a managing agent (or the Minis
 Second, constituent service. Every MP — regardless of their views on leasehold reform or whether they have any specialist interest in the topic — has a basic duty of care to their constituents. They will pursue procedural concerns on your behalf, write to the relevant Minister, and follow up on their behalf. You don’t need an MP who is personally passionate about leasehold reform for this to be useful. You just need an MP who handles their constituency casework competently. Many do.
 
 What MP escalation typically does not do
+
 - It does not directly resolve the dispute. The managing agent does not have to do anything substantive
 in response to an MP letter.
+
 - It does not produce a refund or a reduction in charges. An MP has no power over what you are charged.
 
   Nor, for that matter, does a tribunal. A tribunal decides what is and is not payable. It cannot order your money back. If the landlord will not repay voluntarily, the order for repayment comes from the County Court — see Phase 5.
@@ -931,6 +983,7 @@ Some service charge disputes involve issues that go beyond the managing agent’
 
 - Insurance arranged through a broker that is owned by, affiliated with, or has shared directors with the
 managing agent
+
 - Utility supply contracts with related-party suppliers
 - Reserve fund management, where there are questions about how funds are held or accounted for.
 
@@ -972,6 +1025,7 @@ Communal utilities — electricity, gas, hot water, communal heating systems —
 
 - Related-party utility supply arrangements. If your communal electricity, gas, or heat is supplied by
 a company connected to your managing agent or freeholder (shared directors, common ownership, or a group structure), this raises the same conflict-of-interest concerns as related-party insurance. Companies House records (above) are usually the starting point for verifying these relationships.
+
 - Heat networks specifically (district or communal heating systems supplying multiple homes from a
 central plant). These have a new regulatory regime as of January 2026.
 
@@ -993,8 +1047,10 @@ Where the line sits between routes. This area can get confusing because the same
 
 - If the dispute is about the level of the heat or utility cost being passed through to leaseholders via the
 service charge → First-tier Tribunal
+
 - If the dispute is about the quality, billing, or service of the heat supplier → Energy Ombudsman
 (where the supplier is a heat network)
+
 - If the dispute is about a related-party arrangement between the managing agent/freeholder and the
 utility supplier → Companies House for evidence, with the substantive challenge through the tribunal
 
@@ -1028,7 +1084,7 @@ Realistic expectations on regulatory routes These are slow processes. Companies 
 
 ## Free advisory bodies
 
-Several organisations provide free, qualified advice and support to leaseholders. Using them is not “escalation” in the same sense as the routes above — they are not adjudicators, regulators, or pressure points. They are sources of advice, perspective, and support. For most leaseholders, especially those self- representing through a complex dispute, they are genuinely valuable.
+Several organisations provide free, qualified advice and support to leaseholders. Using them is not “escalation” in the same sense as the routes above — they are not adjudicators, regulators, or pressure points. They are sources of advice, perspective, and support. For most leaseholders, especially those self-representing through a complex dispute, they are genuinely valuable.
 
 ### LEASE (the Leasehold Advisory Service)
 
@@ -1105,11 +1161,13 @@ If you want to share your experience publicly — which can be valuable for awar
 The point of this phase is not to do everything, but to do the right things for your case. Here is a rough framework.
 
 If your dispute is purely about conduct (no substantive issue with charges)
+
 - File a complaint with the redress scheme (TPO or Property Redress) once internal process is exhausted
 - Consider MP escalation if you want additional procedural pressure
 - LEASE for advice if needed
 
 If your dispute is about the level or reasonableness of charges (with or without conduct issues)
+
 - Begin preparation for a First-tier Tribunal application (Phase 4)
 - Consider MP escalation primarily as an information-extraction tool to support the tribunal case
 - Use Companies House to verify related-party relationships if relevant
@@ -1120,11 +1178,13 @@ If your dispute is about the level or reasonableness of charges (with or without
 case alongside the substantive matter and you specifically want a parallel finding
 
 Always
+
 - Keep building documentation
 - Track other leaseholders’ experiences in your building
 - Use free advisory bodies — there is no virtue in struggling alone
 
 Don’t
+
 - Don’t withhold service charges as a tactic
 - Don’t run public campaigns or post specific allegations on social media while the dispute is live
 - Don’t pursue every available route just because it exists — escalation routes are tools, not a checklist
@@ -1138,6 +1198,7 @@ By the end of this phase, you should have:
 - Any MP correspondence underway, with realistic expectations of what it will produce
 - Verified factual evidence from Companies House and other public sources, where this supports your
 substantive case
+
 - Connection to LEASE or other advisory bodies for ongoing support
 
 If your dispute is fundamentally about the level or reasonableness of charges, the substantive forum for resolution is the First-tier Tribunal. That’s Phase 4, and it’s the most consequential phase in this toolkit.
@@ -1160,6 +1221,7 @@ Tribunal panels typically consist of two or three members:
 
 - A judge (sometimes called the chairman), usually a solicitor or barrister with experience in property
 law
+
 - A valuer member, typically a chartered surveyor
 - Sometimes a lay member with relevant experience
 
@@ -1172,8 +1234,10 @@ What the tribunal can do:
 - Determine whether services or works were of a reasonable standard
 - Make orders limiting the recovery of landlord’s costs (Section 20C and Paragraph 5A — covered
 below)
+
 - Determine the reasonableness of administration charges (variable ones) under Schedule 11 of the
 Commonhold and Leasehold Reform Act 2002
+
 - Order reimbursement of tribunal fees in appropriate cases
 - In limited circumstances, make costs orders against parties who have acted unreasonably
 
@@ -1181,8 +1245,10 @@ What the tribunal cannot generally do:
 
 - It cannot order a refund of money already paid as such — but if it determines that charges were not
 payable, the practical consequence is that you can pursue recovery through the County Court (Phase 5)
+
 - It cannot adjudicate disputes the leaseholder has formally agreed to or admitted (note: paying the
 charge is not, by itself, an admission)
+
 - It does not award damages for inconvenience or distress (that is a redress scheme function)
 
 ## Whether tribunal is the right route for your dispute
@@ -1198,16 +1264,20 @@ The tribunal is generally not the right route when:
 
 - Your dispute is purely about conduct with no substantive challenge to the charges (use the redress
 scheme route in Phase 3 instead)
+
 - You are simply unhappy with the level of charges in the abstract but cannot point to specific items or
 reasons (the tribunal needs specifics to work with)
+
 - Your concern is about the lease itself rather than the charges payable under it (lease extension,
 enfranchisement matters need different routes — and usually professional advice)
+
 - You are considering Right to Manage or appointing a different manager (RTM is briefly covered in
 Phase 5; both routes generally require specialist advice)
+
 - You are dealing with possible forfeiture of the lease or have been served with court proceedings (this
 is a situation where you should get qualified legal advice immediately)
 
-A useful self-test: can you write a numbered list of specific charges you are challenging, with a one- paragraph reason for each? If yes, the tribunal is likely the right route. If you find yourself reaching for vague language like “the whole thing is unfair,” more work is needed before applying.
+A useful self-test: can you write a numbered list of specific charges you are challenging, with a one-paragraph reason for each? If yes, the tribunal is likely the right route. If you find yourself reaching for vague language like “the whole thing is unfair,” more work is needed before applying.
 
 ## The application
 
@@ -1240,6 +1310,7 @@ item, and amount. The tribunal will only consider what you have specifically put
   So before you name anyone, do two things. Read the parties clause of your lease. Then check whose name is on the service charge demands and who the money is paid to. If the two point at different companies, you may name both as respondents and explain why in the application.
 
   This matters more than it sounds. Respondents’ solicitors run the wrong-respondent point routinely, at the tribunal and again at the County Court stage. It rarely defeats an application outright. It reliably costs months.
+
 - Apply for a hearing rather than a paper determination if your case has any complexity. A paper
 determination means the tribunal decides on documents alone. For substantive disputes with disputed evidence, an oral hearing is almost always better.
 
@@ -1372,8 +1443,10 @@ Build mental capacity for this being a long road. Some practical implications:
   So forfeiture is not the immediate risk while your case is live. The real risks of not paying are a county court debt claim, contractual interest, debt-recovery administration charges, a mark on your credit file, and problems with your mortgage lender. Note the first one. A judgment against you would itself unlock forfeiture.
 
   Those are reason enough to pay under protest if you can.
+
 - The dispute will run alongside your normal life. Several months of preparation work, often in
 evenings and weekends, while continuing to live in the property and (in most cases) interact with the same managing agent in the ordinary course of building life.
+
 - Other life decisions become more complex. Selling the flat, refinancing, or making major
 renovations during a live tribunal case is harder. Buyers’ solicitors may ask questions about the dispute. Lenders may want to understand what is happening. None of this is fatal — many leaseholders sell or refinance during disputes — but it adds friction.
 
@@ -1402,7 +1475,17 @@ A good statement of case has the following structure:
 
 The single most important part of your statement of case is the item-by-item analysis. This is what the tribunal will spend most time considering. Each challenged charge should follow a consistent structure. A worked example for a reserve fund challenge:
 
-3.2 Reserve fund contribution, year 2023–24: £1,419.61 The Applicant challenges this contribution as unreasonable, on the following grounds: 3.2.1 The contribution represents a substantial increase from previous years (£X in 2022-23, £Y in 2023-24). No explanation has been provided for the increase. 3.2.2 The Applicant has requested, on [date 1] and [date 2], a copy of the asset management plan, condition survey, or schedule of major works against which the reserve fund is being collected. No such document has been provided. The Respondent’s only response, by letter dated [date 3], stated that “the reserve fund is held in anticipation of future works” without identifying those works. 3.2.3 Section 19 of the Landlord and Tenant Act 1985 requires that service charges be reasonably incurred. A reserve fund contribution that cannot be tied to any identified, costed, scheduled programme of works is not reasonably incurred. The Applicant relies on the principle that landlords must be able to justify reserve fund levels by reference to a planned programme of expenditure. 3.2.4 The Applicant therefore seeks a determination that the reserve fund contribution of £1,419.61 for year 2023-24 is not payable, alternatively is payable only in such reduced amount as the Tribunal considers reasonable.
+3.2 Reserve fund contribution, year 2023–24: £1,419.61
+
+The Applicant challenges this contribution as unreasonable, on the following grounds:
+
+3.2.1 The contribution represents a substantial increase from previous years (£X in 2021-22, £Y in 2022-23). No explanation has been provided for the increase.
+
+3.2.2 The Applicant has requested, on [date 1] and [date 2], a copy of the asset management plan, condition survey, or schedule of major works against which the reserve fund is being collected. No such document has been provided. The Respondent’s only response, by letter dated [date 3], stated that “the reserve fund is held in anticipation of future works” without identifying those works.
+
+3.2.3 Section 19 of the Landlord and Tenant Act 1985 requires that service charges be reasonably incurred. A reserve fund contribution that cannot be tied to any identified, costed, scheduled programme of works is not reasonably incurred. The Applicant relies on the principle that landlords must be able to justify reserve fund levels by reference to a planned programme of expenditure.
+
+3.2.4 The Applicant therefore seeks a determination that the reserve fund contribution of £1,419.61 for year 2023-24 is not payable, alternatively is payable only in such reduced amount as the Tribunal considers reasonable.
 
 This structure — challenge stated, evidence presented, statutory hook identified, relief sought — is what the tribunal will find easiest to engage with. Replicate it for each challenged item.
 
@@ -1427,31 +1510,42 @@ Just as important as what to include is what to leave out. The following things 
 
 - Emotional language. “It is outrageous that…” “I am disgusted by…” The tribunal will not be moved
 by your feelings about the dispute, and emotional language signals an applicant who cannot separate the substance from the feeling. Strip it out.
+
 - Accusations of motive without evidence. Saying the managing agent has acted “deliberately” or “in
 bad faith” requires evidence the tribunal can rely on. Without it, the accusation undermines your credibility, not theirs.
+
 - Tangential complaints. A statement of case is not the place to vent every grievance. Stick to the
 items you are formally challenging. If something is not part of the formal challenge, it does not belong in the statement of case.
+
 - Irrelevant background. The history of leasehold reform, the wider problems with the property
 management industry, the fact that the company appears in negative news stories — all of this is not what the tribunal is deciding. They are deciding whether specific charges are reasonable. Stay focused.
+
 - Material that goes beyond your knowledge. Avoid speculation about internal company decision-
 making, financial arrangements you don’t have direct evidence of, or matters you only know from rumour. If you don’t know, don’t claim you do.
 
 - Long quotations from third parties. A statement of case from a leaseholder is not strengthened by
 extensive quotes from news articles, advocacy bodies, or political speeches. Make your own argument.
+
 - References to the merits of the wider managing agent. The tribunal is deciding your case, not
 running a public inquiry into the company. Trustpilot reviews and similar reputational material rarely add anything.
 
 A few principles for writing
+
 - Be factual. Avoid emotional language, accusations of motive, or rhetoric. Where you describe
 respondent behaviour, describe it factually with dates and reference points.
+
 - Be specific. “The reserve fund of £X for year Y was not justified by any asset management plan or
 condition survey, despite written requests on dates A, B, and C” is far more powerful than “the reserve fund is excessive.”
+
 - Be brief. A tightly written 10-page statement of case is better than a sprawling 40-page one. The
 tribunal reads many cases. Make it easy for them to follow yours.
+
 - Number your paragraphs. This makes it easy for the respondent to address specific points and for
 the tribunal to refer to them at hearing.
+
 - Cross-reference your evidence. Every factual claim should be supported by a reference to a
 document in the bundle: “(Bundle p.34)” or similar. This shows the tribunal where to find the supporting material.
+
 - Avoid legalese. “The Applicant respectfully submits…” is fine, but you do not need to write in
 pretend legal language to be taken seriously. Plain English, well structured, is what works.
 
@@ -1467,9 +1561,11 @@ The tribunal will rely heavily on documents. Build the bundle thoughtfully:
 
 - Service charge demands and accounts for the years in question (and ideally the year before and after,
 for context)
+
 - Your lease (or relevant extracts)
 - Correspondence between you and the managing agent (formal complaint, responses, follow-up
 correspondence)
+
 - Internal communications you have access to (where relevant)
 - Section 20 consultation documents (if Section 20 is in issue)
 
@@ -1495,10 +1591,13 @@ Practical points on witness statements:
 
 - They should be in the first person, present-tense narrative form (“I am the leaseholder of Flat X…”
 “On [date] I emailed the managing agent…”)
+
 - They must be signed and dated, and should include a statement of truth (“I believe the facts stated in
 this witness statement are true”)
+
 - The witness should be willing to attend the hearing if required (though in many cases written
 statements alone are accepted, particularly where they are not contested)
+
 - Keep them factual, dated, specific. Avoid generalisations like “the managing agent is terrible” —
 instead describe specific events with specific dates.
 
@@ -1568,10 +1667,13 @@ But the question of whether to hire professional help is still worth thinking th
 
 - Complexity of the case. Straightforward reasonableness challenges on identifiable items can usually
 be self-represented. Cases involving complex valuations, technical building safety issues, or multiple intersecting legal questions may benefit from professional help.
+
 - The amount in dispute. A dispute over £1,000 is unlikely to justify lawyer’s fees that could easily
 reach £5,000-£10,000. A dispute over £30,000 changes the calculus.
+
 - The nature of the respondent. Where the respondent has instructed counsel and has a sophisticated
 legal strategy, the leaseholder will be at a structural disadvantage if entirely self-representing without any advice. Even brief, paid consultations with a property litigation solicitor can be valuable.
+
 - Your own capacity. Building a tribunal case takes significant time — easily 50-100 hours over the
 months of preparation. If your circumstances make that difficult, a solicitor handles it for you.
 
@@ -1591,18 +1693,25 @@ What to do in the week before:
 
 - Re-read your statement of case in full, slowly. The tribunal will have read it. The respondent will
 have read it. You should know it inside out.
+
 - Re-read the respondent’s statement of case in full. Identify every factual claim they make, every
 assertion of reasonableness, and every place they engage with your specific challenges. Make notes on each.
+
 - Prepare a short response document (for your own use, not for filing) that addresses each of the
 respondent’s main arguments. This is your mental script for the parts of the hearing where you respond to them.
+
 - Prepare an opening statement — three to five minutes, summarising your case. Practice saying it
 aloud. (More on this below.)
+
 - Prepare a list of points to make in closing — the orders sought (Section 20C, Paragraph 5A, fee
 reimbursement) plus any specific points you want the panel to remember.
+
 - Tab your bundle. If you have a paper bundle, use sticky notes or coloured tabs to mark the key
 documents you may need to refer to quickly. Numbering or labelling them (“Reserve fund correspondence”, “Section 20 documents”) helps you find them under pressure.
+
 - Plan logistics. Know where the hearing is, how to get there, where to park, how long it will take,
 where you can sit if you arrive early. Practical anxiety distracts from substantive focus; eliminate it in advance.
+
 - Eat. Sleep. Hydrate. This is not just self-care — your performance materially benefits from being
 rested and steady on the day.
 
@@ -1613,6 +1722,7 @@ A good opening statement is:
 - Short. Three to five minutes, not fifteen.
 - Structured. Tell them what you are challenging, on what grounds, and what you are asking the
 tribunal to do.
+
 - Confident but measured. You are not pleading. You are presenting a reasoned case.
 - Focused on the substance. Save procedural complaints (delays, evasion, etc.) for later sections.
 
@@ -1650,12 +1760,16 @@ Some practical principles:
 
 - Listen to the question. Don’t anticipate what you think the question is going to be; listen to what is
 actually asked.
+
 - Pause before answering. A two-second pause to think is fine. The panel prefers a thoughtful answer
 to a fast one.
+
 - If you don’t know, say so. “I don’t know the answer to that. The Respondent may be able to assist.”
 Or: “I don’t have that information. Can I provide it to the tribunal in writing afterwards?” Saying “I don’t know” is far better than guessing wrong.
+
 - Direct them to the bundle. Where a panel question is about something in your evidence, direct them
 to where it sits. “That is at page 23 of the bundle, paragraph 4 of the email.”
+
 - Stay on topic. If the panel asks about the reserve fund, answer about the reserve fund. Don’t take it as
 an opportunity to talk about the management fee.
 
@@ -1666,6 +1780,7 @@ When it is the respondent’s turn to present, your job is to listen carefully a
 - Note any factual claims they make that you can dispute with evidence in the bundle
 - Note any inconsistencies between what they say at the hearing and what they have said in writing
 previously
+
 - Note any concessions they make, especially ones that cut against their case
 - Note questions you want to ask if there is an opportunity (this varies by tribunal — some allow
 direct questioning of witnesses, others not)
@@ -1674,8 +1789,10 @@ When you respond, address these points specifically. Use phrases like:
 
 - “The Respondent has just stated [X]. With respect, that is inconsistent with [Y] at page Z of the
 bundle.”
+
 - “The Respondent has referred to [the lease provision] as authority for this charge. I do not dispute that
 the lease permits the charge. The question is whether the level is reasonable.”
+
 - “I would invite the Tribunal to note that the Respondent has not addressed the question of [Y] in their
 submissions.”
 
@@ -1685,13 +1802,16 @@ Things can go wrong at hearings. You may forget a point. The respondent may make
 
 - You are allowed to take a moment. “May I have a moment to find that, please?” while you flick
 through the bundle is entirely acceptable.
+
 - You are allowed to come back to a point. “I would like to come back to a point I made earlier, if I
 may…” is fine.
 
 - You are allowed to apologise for an error. “I should correct what I just said. The figure is £X, not
 £Y. I apologise for the confusion.” Errors handled cleanly do not damage credibility.
+
 - You are not required to answer immediately. “I would like to think about that for a moment” is
 fine.
+
 - If you genuinely become emotional, ask for a brief recess. “Madam Chair, may I have a few
 minutes?” is something panels accommodate. It is far better to take five minutes to compose yourself than to continue while distressed.
 
@@ -1704,17 +1824,23 @@ At the end of the hearing, you will have an opportunity to make closing remarks.
 Do not use the closing to introduce new arguments. The closing is for emphasis, not new material.
 
 What to expect on the day: practical logistics
+
 - Arrive early. Thirty minutes early is sensible. It gives you time to find the room, settle, and avoid
 arriving flustered.
+
 - Bring everything you might need. Your bundle (multiple copies if directed). Your statement of case.
 Your notes. Pens. Water. Tissues. Mints. A watch.
+
 - Dress neutrally. A smart-casual outfit (think: a job interview at a professional services firm) is right.
 You are not in court, but you are in a formal setting.
+
 - The room. Smaller than you might expect. The panel sits at a table; you and the respondent sit at
 separate tables facing them. The room is often quite quiet.
+
 - **Recording.** Do not assume the hearing is recorded. The rules require recording only in narrow circumstances: broadly, hearings held in private, or hearings treated as public only because a media representative is attending remotely. Even where a recording exists, it can only be accessed with the tribunal’s consent, in whatever manner the tribunal directs. There is no routine transcript. Take your own contemporaneous notes of anything you may want to rely on later.
 - Length. Service charge hearings vary widely. A straightforward case may take half a day. A complex
 one with multiple challenged items can take a full day. Plan accordingly.
+
 - Breaks. There will usually be a lunch break and shorter breaks. Use breaks to consolidate notes and
 look ahead, not to keep arguing internally about points already made.
 
@@ -1780,7 +1906,7 @@ If you have won, the dispute is not necessarily over. The landlord has lost the 
 
 You have won at tribunal — in whole or in part. The decision sets out the panel’s findings on each challenged charge. Some amounts have been disallowed; some have been reduced. The Section 20C and Paragraph 5A orders have been made. The fee reimbursement has been ordered.
 
-There is a moment of relief at this point. There should be. Winning at tribunal, particularly as a self- representing leaseholder against a professionally represented respondent, is genuinely an achievement.
+There is a moment of relief at this point. There should be. Winning at tribunal, particularly as a self-representing leaseholder against a professionally represented respondent, is genuinely an achievement.
 
 But the dispute is not necessarily over. The tribunal has determined what was reasonable; it has not yet transferred money from the landlord’s account to yours. That is a separate process — and it is one most leaseholders are surprised to discover exists.
 
@@ -1914,7 +2040,7 @@ In practice both usually go into the same demand — and, if unpaid, the same cl
 
 Add the three together: principal £1,512.59 + interest £262.08 + tribunal fees £341 = **£2,115.67**. That is the sum you demand, and you should show the workings in the letter.
 
-Plan for one consequence. The court issue fee is calculated on what you claim, interest included. £1,512.59 + £262.08 = £1,774.67. That sits in the £1,500.01–£3,000 band, so the fee is £115, not the £80 the principal alone would suggest.
+Plan for one consequence. The court issue fee is calculated on what you claim, interest included. £1,512.59 + £262.08 = £1,774.67. That sits in the £1,500.01–£3,000 band: a £115 fee.
 
 ## The formal demand letter
 
@@ -1944,10 +2070,13 @@ There are several possible responses. Plan for each:
 
 - Payment in full. This does happen. Don’t expect it, but don’t be surprised by it either. If it arrives,
 ensure the calculation is correct (sometimes the landlord will pay the principal but omit interest or fees) and consider the matter resolved.
+
 - Credit to the service charge account rather than cash refund. Many landlords prefer to apply the
 disallowed amount as a credit against future service charges rather than transferring cash. This may be acceptable if you intend to remain in the property — future charges will offset the credit. It is more problematic if you are planning to sell soon, because the credit has to be reconciled at completion. Whether to accept depends on your circumstances. You are not obliged to accept a credit if you have asked for cash. But some leaseholders find the practical outcome of a credit acceptable.
+
 - A partial payment with disputed elements. The landlord may pay the principal but contest the
 interest, the fee reimbursement, or both. You then have to decide whether to pursue the disputed elements through the County Court, or accept the partial settlement.
+
 - Silence. No response within the deadline. This is the prompt to file a County Court claim.
 - A counter-argument that the tribunal decision is being misread. Occasionally the landlord will
 argue that you have miscalculated, or that the decision means something different from what you understand. Read their response carefully. If there is genuine ambiguity, consider applying to the tribunal for clarification. If there isn’t, treat it as silence and proceed to County Court.
@@ -1968,7 +2097,7 @@ You cannot use the online service at all if:
 - you or any defendant has no address in England or Wales
 - the claim is against a government department
 
-Eligibility and scope Money claims under £10,000 are generally allocated to the small claims track, which is designed for self- representing litigants. The track has informal procedures, no requirement for legal representation, and typically caps recoverable costs (so the loser pays only court fees, not the winner’s legal costs in most cases). Most service charge refund claims fall well below £10,000 and are therefore in the small claims track.
+Eligibility and scope Money claims under £10,000 are generally allocated to the small claims track, which is designed for self-representing litigants. The track has informal procedures, no requirement for legal representation, and typically caps recoverable costs (so the loser pays only court fees, not the winner’s legal costs in most cases). Most service charge refund claims fall well below £10,000 and are therefore in the small claims track.
 
 **Court fees**
 
@@ -2007,6 +2136,7 @@ The Money Claims Service will guide you through a series of online forms. The ke
   The tribunal respondent is a useful starting point, but it is not conclusive. Tribunals sometimes record the freeholder as respondent even where a management company is the party under the lease. And a determination that a charge is not payable does not by itself make the freeholder the party who must hand the money back.
 
   If your lease is tripartite and you are unsure, write to both before you issue and ask which of them will make the refund. A misnamed defendant can be amended. But it costs time, and it invites a costs argument.
+
 - **Amount claimed.** The principal disallowed by the tribunal, plus the interest calculated to the date of issue. The court fee is set on the total of the two.
 - Interest. Claimed under Section 69 of the County Courts Act 1984 at 8% from the date of payment.
 - Court fees. Claimed as recoverable.
@@ -2022,6 +2152,7 @@ Once issued, the defendant is served with the claim form and has typically 14 da
 - Accept the claim and pay (settlement)
 - Defend the claim by filing a defence — at which point the case proceeds through the small claims
 track
+
 - Default — not respond at all, in which case you can apply for default judgment
 
 In practice, most service charge refund claims are settled before any defence is filed, particularly where the tribunal decision is clear and the calculation is transparent. The County Court claim acts as a credible threat: the defendant knows that defending it will incur court time, exposure to default judgment risk, and the eventual outcome (the tribunal having already determined the merits) is highly predictable.
@@ -2050,6 +2181,7 @@ Whether you went down Path A or Path B, the dispute does not end when the money 
 
 - Re-introduce charges that the tribunal disallowed (under different headings, in different years, or with
 different justifications)
+
 - Increase other charges to recover what was lost on the disallowed items
 - Treat the tribunal decision as a one-off correction rather than a precedent for how future charges
 should be assessed
@@ -2058,8 +2190,10 @@ The discipline going forward:
 
 - Keep the tribunal decision permanently filed. It is your reference document for any future
 challenge to similar charges.
+
 - Read every future service charge demand carefully. Compare line items to the previous year and to
 the tribunal decision. If something looks like a re-introduction of a disallowed charge, raise it formally.
+
 - Continue with documentation discipline. The habits built during the dispute (everything in writing,
 everything dated, follow-up summaries after calls) remain useful indefinitely.
 
@@ -2089,8 +2223,9 @@ RTM is sometimes confused with two other routes:
 
 - Collective Enfranchisement is the right to buy the freehold. It costs significantly more (you have to
 pay for the freehold), takes longer, and is suited to leaseholders wanting permanent control of the building including future ground rent and lease extensions. RTM only takes over management; the freeholder remains the freeholder.
+
 - Appointment of a Manager is a fault-based process where the tribunal appoints a manager to replace
-the existing one. It requires proof of mismanagement and is more adversarial. RTM is broader, no- fault, and more commonly used.
+the existing one. It requires proof of mismanagement and is more adversarial. RTM is broader, no-fault, and more commonly used.
 
 ### Eligibility
 
@@ -2098,12 +2233,16 @@ Not every building qualifies for RTM. The main requirements:
 
 - The building is self-contained (a single structure, or a part of a larger building separated by a vertical
 division)
+
 - The building contains at least two flats, with at least two-thirds held by qualifying tenants (long
 leaseholders with leases originally granted for more than 21 years)
+
 - At least 50% of all flats in the building must be held by qualifying tenants who join the RTM
 company
+
 - The non-residential portion of the building (commercial units, shops) must not exceed 50% of the
 total internal floor area. This threshold was raised from 25% to 50% by Section 49 of the Leasehold and Freehold Reform Act 2024, effective 3 March 2025, which significantly broadened eligibility for mixed-use buildings.
+
 - Certain buildings are excluded — including some small-scale conversions where the landlord lives in
 the building, and those owned by local housing authorities
 
@@ -2119,6 +2258,7 @@ What changes:
 
 - The RTM company decides who manages the building, including whether to retain or replace the
 managing agent
+
 - Service charge budgets are set by the RTM company
 - The RTM company has direct responsibility for compliance, insurance, and major works decisions
 - Leaseholders gain a direct route into management decisions through the RTM company structure
@@ -2128,6 +2268,7 @@ What does not change:
 - The freeholder still owns the building. You have not bought anything.
 - The freeholder retains certain rights, including being a member of the RTM company and voting on
 decisions
+
 - Lease terms remain the same — including any ground rent, restrictions on use, and other obligations
 - Building safety duties and statutory obligations transfer to the RTM company, which carries genuine
 legal responsibility
@@ -2152,6 +2293,7 @@ existing management
 
 - There are at least one or two leaseholders willing and able to drive the process and serve as RTM
 company directors
+
 - The building genuinely qualifies (eligibility analysis is clean)
 - The post-RTM management plan is realistic — either appointing a new managing agent or, less
 commonly, self-management
@@ -2161,6 +2303,7 @@ It tends to be unwise when:
 - Only a handful of leaseholders are engaged and recruiting to 50% is uncertain
 - No one is willing to take on the responsibility of being a director of the RTM company (the role
 carries genuine legal responsibility, including building safety obligations)
+
 - The building’s eligibility is borderline or contested
 - Leaseholders are looking for short-term relief from a specific dispute, which the tribunal route is
 better suited to
@@ -2171,8 +2314,10 @@ If you decide to investigate seriously, the appropriate next steps are:
 
 - LEASE for free initial guidance on whether your building qualifies and what the process would
 involve
+
 - A specialist solicitor for the substantive work of eligibility analysis, RTM company formation,
 notices, and managing any contested process
+
 - Other leaseholders in your building — RTM is fundamentally a collective process, and recruitment
 cannot wait until late in the process
 
@@ -2187,6 +2332,7 @@ By the end of this phase, you should have:
 - A formal demand letter sent to the landlord
 - Either: a refund/credit received that satisfies the demand, or a County Court claim filed through the
 Money Claims Service
+
 - Either confirmation to the Money Claims service that you have been paid in full and the claim is settled, or a claim still live and proceeding. In no case a notice of discontinuance.
 - A permanent file of the decision, the orders, and the supporting correspondence
 
@@ -2212,15 +2358,37 @@ A note on disclaimers: nothing in this appendix is legal advice. The templates r
 
 Use this when you have decided to escalate from informal communication to a formal complaint. Send it through the channel the agent’s published complaints procedure names. That is usually a dedicated complaints form or a complaints email address. Read that procedure before you copy a named contact. Some agents ask you not to, because it delays logging.
 
-Subject: Formal Stage 1 complaint — [PROPERTY ADDRESS] Dear [Complaints Team / Named Person], I am writing to raise a formal Stage 1 complaint in accordance with [MANAGING AGENT]’s complaints procedure. My details: - Name: [YOUR NAME] - Property: [FULL ADDRESS, INCLUDING FLAT NUMBER AND POSTCODE] - Reference (if known): [SERVICE CHARGE OR ACCOUNT REFERENCE] The substance of the complaint: 1. [SHORT, FACTUAL DESCRIPTION OF THE FIRST ISSUE — e.g. “The reserve fund contribution for service charge year 2024-25 has been demanded at £X. Despite written requests on [DATES], no asset management plan, condition survey, or schedule of anticipated works has been provided to justify this level of contribution.”] 2. [SHORT, FACTUAL DESCRIPTION OF THE SECOND ISSUE] 3. [SHORT, FACTUAL DESCRIPTION OF THE THIRD ISSUE, IF APPLICABLE]
+**Subject: Formal Stage 1 complaint — [PROPERTY ADDRESS]**
+
+Dear [Complaints Team / Named Person],
+
+I am writing to raise a formal Stage 1 complaint in accordance with [MANAGING AGENT]’s complaints procedure.
+
+My details:
+
+- Name: [YOUR NAME]
+- Property: [FULL ADDRESS, INCLUDING FLAT NUMBER AND POSTCODE]
+- Reference (if known): [SERVICE CHARGE OR ACCOUNT REFERENCE]
+
+The substance of the complaint:
+
+1. [SHORT, FACTUAL DESCRIPTION OF THE FIRST ISSUE — e.g. “The reserve fund contribution for service charge year 2024-25 has been demanded at £X. Despite written requests on [DATES], no asset management plan, condition survey, or schedule of anticipated works has been provided to justify this level of contribution.”]
+2. [SHORT, FACTUAL DESCRIPTION OF THE SECOND ISSUE]
+3. [SHORT, FACTUAL DESCRIPTION OF THE THIRD ISSUE, IF APPLICABLE]
 
 What I am asking for:
+
 - A substantive written response to each of the issues raised above
 - The supporting documents I have previously requested but not yet received, namely: [LIST]
 - [ANY SPECIFIC ACTION YOU ARE ASKING FOR, e.g. “A revised service charge demand
 reflecting the corrections identified”]
 
-Please confirm receipt of this complaint and provide the case reference number. I look forward to your substantive response within the timeframe set out in your complaints procedure. Yours faithfully, [YOUR NAME] [DATE]
+Please confirm receipt of this complaint and provide the case reference number. I look forward to your substantive response within the timeframe set out in your complaints procedure.
+
+Yours faithfully,
+
+[YOUR NAME]
+[DATE]
 
 Things to customise:
 
@@ -2232,16 +2400,36 @@ Things to customise:
 
 Use this when the Stage 1 response has been received and is unsatisfactory, or when the Stage 1 timeframe has elapsed without a substantive response.
 
-Subject: Stage 2 escalation — [PROPERTY ADDRESS] — Reference [STAGE 1 REFERENCE] Dear [Senior Manager / Complaints Team], I am writing to escalate my complaint to Stage 2 of [MANAGING AGENT]’s complaints procedure. Background: - Stage 1 complaint filed: [DATE] - Stage 1 reference: [REFERENCE] - Stage 1 response received: [DATE, OR “NOT YET RECEIVED”] Why the Stage 1 response is unsatisfactory:
+**Subject: Stage 2 escalation — [PROPERTY ADDRESS] — Reference [STAGE 1 REFERENCE]**
 
-1. [SPECIFIC FAILURE — e.g. “The Stage 1 response did not address the question of why the reserve fund contribution increased by £X without supporting justification, despite this being the central issue raised.”] 2. [SPECIFIC FAILURE — e.g. “The Stage 1 response stated that ‘the reserve fund is held for future works.’ This does not engage with my specific request for a costed schedule of anticipated works.”] 3. [SPECIFIC FAILURE, IF APPLICABLE]
+Dear [Senior Manager / Complaints Team],
+
+I am writing to escalate my complaint to Stage 2 of [MANAGING AGENT]’s complaints procedure.
+
+Background:
+
+- Stage 1 complaint filed: [DATE]
+- Stage 1 reference: [REFERENCE]
+- Stage 1 response received: [DATE, OR “NOT YET RECEIVED”]
+
+Why the Stage 1 response is unsatisfactory:
+
+1. [SPECIFIC FAILURE — e.g. “The Stage 1 response did not address the question of why the reserve fund contribution increased by £X without supporting justification, despite this being the central issue raised.”]
+2. [SPECIFIC FAILURE — e.g. “The Stage 1 response stated that ‘the reserve fund is held for future works.’ This does not engage with my specific request for a costed schedule of anticipated works.”]
+3. [SPECIFIC FAILURE, IF APPLICABLE]
 
 What I am asking for at Stage 2:
+
 - A substantive response to each of the Stage 1 issues, addressed at a senior management level
 - The specific documents previously requested: [LIST]
 - [ANY SPECIFIC ACTION]
 
-I would also confirm that, in line with The Property Ombudsman’s published procedures, eight weeks from the date of my Stage 1 complaint will pass on [DATE 8 WEEKS AFTER STAGE 1]. If a satisfactory final response has not been received by that date, I reserve the right to refer the matter to the redress scheme. Yours faithfully, [YOUR NAME] [DATE]
+I would also confirm that, in line with The Property Ombudsman’s published procedures, eight weeks from the date of my Stage 1 complaint will pass on [DATE 8 WEEKS AFTER STAGE 1]. If a satisfactory final response has not been received by that date, I reserve the right to refer the matter to the redress scheme.
+
+Yours faithfully,
+
+[YOUR NAME]
+[DATE]
 
 Things to customise:
 
@@ -2251,16 +2439,37 @@ Things to customise:
 
 ### A3. MP letter
 
-Use this when you want to enlist your MP for information leverage or constituent service. Most MPs accept correspondence by email through their parliamentary address (firstname.lastname.mp@parliament.uk).
+Use this when you want to enlist your MP for information leverage or constituent service. Most MPs accept correspondence by email through their parliamentary address (<!--email_off-->firstname.lastname.mp@parliament.uk<!--/email_off-->).
 
-Subject: Constituent matter — service charge dispute — [PROPERTY ADDRESS] Dear [MR/MS/MRS LASTNAME], I am writing as a constituent to ask for your assistance with a service charge dispute affecting my home at [PROPERTY ADDRESS, with postcode]. The situation in brief: I am a leaseholder in a [NUMBER]-flat development managed by [MANAGING AGENT NAME], on behalf of [FREEHOLDER NAME]. I am in dispute with the managing agent over [BRIEF DESCRIPTION — e.g. “the level of reserve fund contributions and management fees for service charge years 2024-25 and 2025-26”]. The dispute has now run since [DATE]. I have followed the formal complaints process to Stage 2 and received a Final Response, which I do not consider satisfactorily addresses the substantive issues. The next step would be an application to the First-tier Tribunal (Property Chamber), which I am preparing. What I am asking for: Specifically, I would be grateful if you could: 1. Write to the relevant Minister at the Ministry of Housing, Communities and Local Government on my behalf, asking for the Government’s position on [SPECIFIC ISSUE — e.g. “transparency obligations on managing agents in respect of reserve fund justifications”] 2. Write to [MANAGING AGENT NAME] requesting a substantive response to the outstanding questions raised in my complaint, particularly: [LIST] 3. [ANY OTHER SPECIFIC ASK]
+**Subject: Constituent matter — service charge dispute — [PROPERTY ADDRESS]**
+
+Dear [MR/MS/MRS LASTNAME],
+
+I am writing as a constituent to ask for your assistance with a service charge dispute affecting my home at [PROPERTY ADDRESS, with postcode].
+
+The situation in brief: I am a leaseholder in a [NUMBER]-flat development managed by [MANAGING AGENT NAME], on behalf of [FREEHOLDER NAME]. I am in dispute with the managing agent over [BRIEF DESCRIPTION — e.g. “the level of reserve fund contributions and management fees for service charge years 2024-25 and 2025-26”]. The dispute has now run since [DATE]. I have followed the formal complaints process to Stage 2 and received a Final Response, which I do not consider satisfactorily addresses the substantive issues. The next step would be an application to the First-tier Tribunal (Property Chamber), which I am preparing.
+
+What I am asking for. Specifically, I would be grateful if you could:
+
+1. Write to the relevant Minister at the Ministry of Housing, Communities and Local Government on my behalf, asking for the Government’s position on [SPECIFIC ISSUE — e.g. “transparency obligations on managing agents in respect of reserve fund justifications”]
+2. Write to [MANAGING AGENT NAME] requesting a substantive response to the outstanding questions raised in my complaint, particularly: [LIST]
+3. [ANY OTHER SPECIFIC ASK]
 
 Documents enclosed:
+
 - My Stage 1 complaint dated [DATE]
 - The Stage 2 Final Response from [MANAGING AGENT] dated [DATE]
 - [ANY OTHER KEY DOCUMENT — keep this short, three or four documents at most]
 
-I appreciate the demands on your time and would be grateful for any assistance you can provide. I am happy to provide further detail if helpful. Yours sincerely, [YOUR NAME] [POSTAL ADDRESS — including postcode; MPs only act on letters from constituents in their constituency] [EMAIL ADDRESS] [PHONE NUMBER] [DATE]
+I appreciate the demands on your time and would be grateful for any assistance you can provide. I am happy to provide further detail if helpful.
+
+Yours sincerely,
+
+[YOUR NAME]
+[POSTAL ADDRESS — including postcode; MPs only act on letters from constituents in their constituency]
+[EMAIL ADDRESS]
+[PHONE NUMBER]
+[DATE]
 
 Things to customise:
 
@@ -2268,13 +2477,22 @@ Things to customise:
 - Be specific about what you want them to do. Vague requests get vague responses.
 - Keep the letter to one page if possible. Attach documents separately.
 
-A4. Section 21 request — summary of relevant costs Use this to request a written summary of service charge costs under Section 21 of the Landlord and Tenant Act 1985.
+### A4. Section 21 request — summary of relevant costs
 
-Subject: Request under Section 21 of the Landlord and Tenant Act 1985 — [PROPERTY ADDRESS] Dear [LANDLORD / MANAGING AGENT], I am the leaseholder of [PROPERTY ADDRESS]. I am writing to request, pursuant to Section 21 of the Landlord and Tenant Act 1985, a written summary of the relevant costs incurred during the accounting period ending [DATE OF MOST RECENT YEAR-END]. Please provide:
+Use this to request a written summary of service charge costs under Section 21 of the Landlord and Tenant Act 1985.
+
+**Subject: Request under Section 21 of the Landlord and Tenant Act 1985 — [PROPERTY ADDRESS]**
+
+Dear [LANDLORD / MANAGING AGENT],
+
+I am the leaseholder of [PROPERTY ADDRESS]. I am writing to request, pursuant to Section 21 of the Landlord and Tenant Act 1985, a written summary of the relevant costs incurred during the accounting period ending [DATE OF MOST RECENT YEAR-END].
+
+Please provide:
 
 - A summary of the costs incurred and the period to which the summary relates
 - The total of any amounts received by the landlord in respect of those costs and standing to the credit
 of any service charge account
+
 - The aggregate of any amounts received on account of service charges and any amounts paid out
 
 Where service charges are payable by tenants of more than four dwellings, please ensure the summary is certified by a qualified accountant in accordance with Section 21(6) of the Act. The Act requires you to provide this summary within one month of receipt of this request, or within six months of the end of the accounting period to which it relates, whichever is later. Failure to comply without reasonable excuse is a summary offence under Section 25 of the Act. I look forward to receiving the summary by [DATE — one month from sending]. Yours faithfully, [YOUR NAME] [DATE]
@@ -2289,7 +2507,20 @@ Send it now. Do not wait for a Stage 1 or Stage 2 complaint, or an Ombudsman cas
 
 One trap. If you received service charge accounts voluntarily, rather than in response to a Section 21 request, the six months may already be running from that date.
 
-Subject: Request under Section 22 of the Landlord and Tenant Act 1985 — [PROPERTY ADDRESS] Dear [LANDLORD / MANAGING AGENT], Further to the summary of relevant costs provided in response to my Section 21 request dated [DATE], I am writing to request, pursuant to Section 22 of the Landlord and Tenant Act 1985, reasonable facilities for inspecting the accounts, receipts, and other documents supporting that summary, and for taking copies or extracts from them. The Act requires you to make these facilities available within one month of this request, for a period of two months. Inspection must be made available free of charge; reasonable charges may be made for copying. Please contact me to arrange a mutually convenient time and location for the inspection. I would be grateful if the inspection could be arranged for a date within the next four weeks. Yours faithfully, [YOUR NAME] [DATE]
+**Subject: Request under Section 22 of the Landlord and Tenant Act 1985 — [PROPERTY ADDRESS]**
+
+Dear [LANDLORD / MANAGING AGENT],
+
+Further to the summary of relevant costs provided in response to my Section 21 request dated [DATE], I am writing to request, pursuant to Section 22 of the Landlord and Tenant Act 1985, reasonable facilities for inspecting the accounts, receipts, and other documents supporting that summary, and for taking copies or extracts from them.
+
+The Act requires you to make these facilities available within one month of this request, for a period of two months. Inspection must be made available free of charge; reasonable charges may be made for copying.
+
+Please contact me to arrange a mutually convenient time and location for the inspection. I would be grateful if the inspection could be arranged for a date within the next four weeks.
+
+Yours faithfully,
+
+[YOUR NAME]
+[DATE]
 
 ### A6. Tribunal application — what to include
 
@@ -2297,7 +2528,13 @@ The official form is **Leasehold 3**, “Apply for determination of liability to
 
 **The hearing fee has a 14-day clock.** When the tribunal writes asking for the hearing fee, you have 14 days to pay it, and you must quote the exact payment reference the letter gives you. Miss it and your application can be treated as withdrawn under rule 11. This is the easiest way there is to lose a case you were winning. The form asks for the following information — preparing a draft of each section before completing the form will save time.
 
-Section: Applicant Your name, address, and contact details. Use the address of the property in question. Section: Respondent The freeholder (or whoever is liable to provide services and demand payment under the lease). Get this exactly right by reference to your lease and recent service charge demands. Section: Property Full address, lease details, your interest in the property. Section: Issues A clear list of the specific charges you are challenging. Identify each by:
+**Applicant.** Your name, address, and contact details. Use the address of the property in question.
+
+**Respondent.** The freeholder (or whoever is liable to provide services and demand payment under the lease). Get this exactly right by reference to your lease and recent service charge demands.
+
+**Property.** Full address, lease details, your interest in the property.
+
+**Issues.** A clear list of the specific charges you are challenging. Identify each by:
 
 - Service charge year (e.g. 2024-25)
 - Item (e.g. “reserve fund contribution”)
@@ -2310,11 +2547,17 @@ Include a one-line summary of why each is challenged. Section: Orders sought Inc
 - An order under Paragraph 5A of Schedule 11 to the Commonhold and Leasehold Reform Act 2002 reducing or extinguishing the landlord’s right to recover costs as administration charges
 - Reimbursement of the application and hearing fees
 
-Section: Hearing or paper determination Request a hearing unless your case is genuinely simple. Section: Fee £114 application fee. Hearing fee of £227 payable later if a hearing is held. Apply for fee remission (form EX160) if eligible.
+**Hearing or paper determination.** Request a hearing unless your case is genuinely simple.
 
-A7. Statement of case structure Submit your statement of case according to the directions issued after the application. The structure below works well for most service charge disputes.
+**Fee.** £114 application fee. Hearing fee of £227 payable later if a hearing is held. Apply for fee remission (form EX160) if eligible.
 
-1. Introduction One paragraph identifying the parties, the property, the lease, the application, and the case reference. 2. The challenged charges A clear table or list of every charge being challenged, by year, item, and amount. This is the spine of the case. 3. The grounds of challenge — by item A subsection for each challenged item. For each item:
+### A7. Statement of case structure
+
+Submit your statement of case according to the directions issued after the application. The structure below works well for most service charge disputes.
+
+1. **Introduction.** One paragraph identifying the parties, the property, the lease, the application, and the case reference.
+2. **The challenged charges.** A clear table or list of every charge being challenged, by year, item, and amount. This is the spine of the case.
+3. **The grounds of challenge — by item.** A subsection for each challenged item. For each item:
 
 - State the challenge
 - Identify the evidence relied on (cross-referenced to the bundle)
@@ -2325,7 +2568,11 @@ A7. Statement of case structure Submit your statement of case according to the d
 
 Example structure for one item:
 
-3.2 Reserve fund contribution, year 2024-25: £1,419.61 3.2.1 The Applicant challenges this contribution as unreasonable. 3.2.2 [The factual basis — what was demanded, what was requested, what was provided.]
+3.2 Reserve fund contribution, year 2024-25: £1,419.61
+
+3.2.1 The Applicant challenges this contribution as unreasonable.
+
+3.2.2 [The factual basis — what was demanded, what was requested, what was provided.]
 
 3.2.3 [The statutory hook. Say which limb you are relying on.
 
@@ -2363,11 +2610,15 @@ Number your paragraphs continuously through the whole statement, not from 1 agai
 
 2. I purchased the leasehold of [PROPERTY] in [DATE]. The property is one of [NUMBER] flats in [BUILDING NAME / DESCRIPTION], managed by [MANAGING AGENT] on behalf of [FREEHOLDER]. 3. [ANY RELEVANT BACKGROUND ON YOUR INVOLVEMENT WITH THE BUILDING.]
 
-### 4. Chronological account of relevant events
+4. Chronological account of relevant events
 
 Numbered, dated, factual paragraphs. One event per paragraph where possible.
 
-4. On [DATE], I received the service charge demand for year 2024-25 from [MANAGING AGENT]. The reserve fund contribution was stated as £1,419.61, an increase of £X compared to the previous year. 5. On [DATE], I sent an email to [NAMED CONTACT] at [MANAGING AGENT], asking for an explanation of the increase and for the asset management plan supporting the reserve fund. A copy of that email is at page [X] of the Applicant’s bundle. 6. I received no response within [TIMEFRAME]. On [DATE], I sent a follow-up email…
+4. On [DATE], I received the service charge demand for year 2024-25 from [MANAGING AGENT]. The reserve fund contribution was stated as £1,419.61, an increase of £X compared to the previous year.
+
+5. On [DATE], I sent an email to [NAMED CONTACT] at [MANAGING AGENT], asking for an explanation of the increase and for the asset management plan supporting the reserve fund. A copy of that email is at page [X] of the Applicant’s bundle.
+
+6. I received no response within [TIMEFRAME]. On [DATE], I sent a follow-up email…
 
 Continue chronologically until you reach the present. 5. Statement of truth
 
@@ -2390,7 +2641,17 @@ Second, if the landlord applied and was refused, a further 14 days to apply to t
 
 You can send the demand earlier. Do not issue a County Court claim until both periods have run.
 
-Subject: Refund of overpaid service charges — [PROPERTY ADDRESS] — Tribunal case [REFERENCE] Dear [MANAGING AGENT / FREEHOLDER], I am writing to request a refund of overpaid service charges, in light of the First-tier Tribunal (Property Chamber) decision dated [DATE] under case reference [REFERENCE]. The Tribunal’s findings: The Tribunal determined that the following amounts were not payable: 1. [ITEM 1] for year [YEAR]: £[AMOUNT] 2. [ITEM 2] for year [YEAR]: £[AMOUNT] 3. [ITEM 3] for year [YEAR]: £[AMOUNT]
+**Subject: Refund of overpaid service charges — [PROPERTY ADDRESS] — Tribunal case [REFERENCE]**
+
+Dear [MANAGING AGENT / FREEHOLDER],
+
+I am writing to request a refund of overpaid service charges, in light of the First-tier Tribunal (Property Chamber) decision dated [DATE] under case reference [REFERENCE].
+
+The Tribunal’s findings. The Tribunal determined that the following amounts were not payable:
+
+1. [ITEM 1] for year [YEAR]: £[AMOUNT]
+2. [ITEM 2] for year [YEAR]: £[AMOUNT]
+3. [ITEM 3] for year [YEAR]: £[AMOUNT]
 
 Calculation of refund due:
 
@@ -2402,7 +2663,7 @@ Calculation of refund due:
 
 Tribunal application and hearing fees (per Tribunal direction): £[C] Total amount due: £[A + B + C] Interest is claimed at 8% per annum, the rate conventionally applied in the County Court, from the date of payment, in accordance with Section 69 of the County Courts Act 1984. Section 20C and Paragraph 5A orders: I note that the Tribunal made orders under Section 20C of the Landlord and Tenant Act 1985 and Paragraph 5A of Schedule 11 to the Commonhold and Leasehold Reform Act 2002 preventing recovery of the landlord’s costs of the proceedings through service charges or as administration charges. I would be grateful for confirmation that no element of the costs of these proceedings will be passed to leaseholders. Payment: Please make payment of £[TOTAL] to the following account by [DATE — typically 14 to 21 days from sending]: [BANK ACCOUNT DETAILS] If a credit to the service charge account is preferred to a cash refund, please confirm in writing that the credit has been applied, in the full amount including interest, and provide documentary confirmation. If payment is not received by [DATE], I will pursue recovery through the County Court without further notice. Yours faithfully, [YOUR NAME] [DATE]
 
-A10. County Court particulars of claim (Money Claims / OCMC)
+### A10. County Court particulars of claim (Money Claims / OCMC)
 If the formal demand is not paid, file a claim through the Money Claims Service (moneyclaims.service.gov.uk). The online form has a character limit; the particulars below show the structure to fit within it.
 
 Particulars of Claim 1. The Claimant is the leaseholder of [PROPERTY ADDRESS] under a lease dated [DATE OF LEASE]. 2. The Defendant is the freeholder/landlord of the property and was the Respondent in First-tier Tribunal (Property Chamber) proceedings under reference [TRIBUNAL CASE REFERENCE]. 3. By a decision dated [DATE], the Tribunal determined that the following service charges were not payable: [BRIEF SUMMARY OF DISALLOWED ITEMS AND AMOUNTS]. 4. The Claimant had previously paid the disputed sums totalling £[AMOUNT]. 5. The Claimant gave the Defendant formal notice of the refund due by letter dated [DATE OF DEMAND LETTER]. The Defendant has failed to pay. 6. The Claimant claims:
@@ -2421,7 +2682,7 @@ Things to remember:
 - Attach the tribunal decision as a supporting document.
 - Keep the particulars factual. The merits have already been determined by the tribunal; this claim enforces that determination.
 
-A11. Settlement confirmation email
+### A11. Settlement confirmation email
 
 **When to use:** the defendant has paid, or applied a credit, after you issued your claim. Send this email. Then tell the court the claim has **settled**, through the Money Claims service.
 
@@ -2470,23 +2731,23 @@ Yours faithfully,
 
 Paragraph 1 of Schedule 11 to the Commonhold and Leasehold Reform Act 2002 defines it. Variable administration charges are payable only to the extent they are reasonable (paragraph 2). Any administration charge, fixed or variable, can be tested for payability on an application under paragraph 5.
 
-Asset management plan. A document setting out anticipated major works and capital expenditure for a building over a multi-year period. The basis for justifying reserve fund contributions.
+**Asset management plan.** A document setting out anticipated major works and capital expenditure for a building over a multi-year period. The basis for justifying reserve fund contributions.
 
-Bundle. The agreed set of documents, paginated and indexed, used by both parties at a tribunal hearing.
+**Bundle.** The agreed set of documents, paginated and indexed, used by both parties at a tribunal hearing.
 
-Case management conference (CMC). A short procedural hearing, often by video or telephone, where the tribunal gives directions and the parties can raise procedural questions.
+**Case management conference (CMC).** A short procedural hearing, often by video or telephone, where the tribunal gives directions and the parties can raise procedural questions.
 
-Collective enfranchisement. The right of qualifying leaseholders to buy the freehold of their building. Different from Right to Manage.
+**Collective enfranchisement.** The right of qualifying leaseholders to buy the freehold of their building. Different from Right to Manage.
 
-Directions. The tribunal’s procedural orders telling each party what to do and by when.
+**Directions.** The tribunal’s procedural orders telling each party what to do and by when.
 
-Final Response / Final Viewpoint letter. The formal end of the managing agent’s internal complaints process.
+**Final Response / Final Viewpoint letter.** The formal end of the managing agent’s internal complaints process.
 
-First-tier Tribunal (Property Chamber). The statutory tribunal that decides service charge disputes and other leasehold matters in England.
+**First-tier Tribunal (Property Chamber).** The statutory tribunal that decides service charge disputes and other leasehold matters in England.
 
 **Freeholder.** The owner of the freehold interest in the building. Often, but not always, the respondent in tribunal proceedings. Where the lease is tripartite and names a separate management company, that company is usually the party entitled to demand the service charge — and the correct respondent.
 
-Leaseholder / lessee. The person holding a long lease (typically more than 21 years) of a flat.
+**Leaseholder / lessee.** The person holding a long lease (typically more than 21 years) of a flat.
 
 **Managing agent / management company.** A company that manages the building. It can be either of two things, and the difference matters.
 
@@ -2494,31 +2755,31 @@ It may be a contractor appointed by the freeholder, or by an RTM company, acting
 
 Which one it is decides who you name as respondent at the tribunal, and as defendant in any later County Court claim. Read the parties clause of your lease.
 
-Paragraph 5A order. An order under Schedule 11 of the Commonhold and Leasehold Reform Act 2002 reducing or extinguishing the landlord’s right to recover costs as administration charges.
+**Paragraph 5A order.** An order under Schedule 11 of the Commonhold and Leasehold Reform Act 2002 reducing or extinguishing the landlord’s right to recover costs as administration charges.
 
-Particulars of claim. The factual basis of a County Court claim, set out in a structured form.
+**Particulars of claim.** The factual basis of a County Court claim, set out in a structured form.
 
-Pre-action protocol. The expectation that parties attempt to resolve a dispute through correspondence before issuing court proceedings.
+**Pre-action protocol.** The expectation that parties attempt to resolve a dispute through correspondence before issuing court proceedings.
 
-Property Ombudsman (TPO). One of two government-approved redress schemes for managing agents.
+**Property Ombudsman (TPO).** One of two government-approved redress schemes for managing agents.
 
-**Property Redress.** The other government-approved redress scheme for managing agents. Formerly the Property Redress. Avoid the old abbreviation “Property Redress” — outside this context it usually means private rented sector.
+**Property Redress.** The other government-approved redress scheme for managing agents. Formerly the Property Redress Scheme (PRS). Avoid the old abbreviation “PRS” — outside this context it usually means private rented sector.
 
-Qualifying tenant. For Right to Manage, a leaseholder whose lease was originally granted for more than 21 years.
+**Qualifying tenant.** For Right to Manage, a leaseholder whose lease was originally granted for more than 21 years.
 
 **Reserve fund / sinking fund.** A pool of money built up over time through service charges, intended to fund major future works. It is held on statutory trust under Section 42 of the Landlord and Tenant Act 1987 — see that entry.
 
-Right to Manage (RTM). A statutory right under the Commonhold and Leasehold Reform Act 2002 allowing qualifying leaseholders to take over management of their building from the landlord, without proving fault.
+**Right to Manage (RTM).** A statutory right under the Commonhold and Leasehold Reform Act 2002 allowing qualifying leaseholders to take over management of their building from the landlord, without proving fault.
 
-Section 19 LTA 1985. The statutory test that service charges must be reasonably incurred and that services or works must be of a reasonable standard.
+**Section 19 LTA 1985.** The statutory test that service charges must be reasonably incurred and that services or works must be of a reasonable standard.
 
-Section 20 LTA 1985. The consultation requirements for major works and long-term agreements above specified thresholds.
+**Section 20 LTA 1985.** The consultation requirements for major works and long-term agreements above specified thresholds.
 
-Section 20C LTA 1985. An order preventing the landlord from recovering its costs of tribunal proceedings through service charges.
+**Section 20C LTA 1985.** An order preventing the landlord from recovering its costs of tribunal proceedings through service charges.
 
-Section 21 LTA 1985. The right to request a written summary of relevant costs from the landlord.
+**Section 21 LTA 1985.** The right to request a written summary of relevant costs from the landlord.
 
-Section 21B LTA 1985. The requirement that every service charge demand be accompanied by a prescribed summary of leaseholders’ rights and obligations.
+**Section 21B LTA 1985.** The requirement that every service charge demand be accompanied by a prescribed summary of leaseholders’ rights and obligations.
 
 **Section 22 LTA 1985.** The right to inspect the supporting documents behind a Section 21 summary — accounts, receipts, invoices. You must make the request in writing within six months of obtaining the summary (s.22(2)). That deadline cannot be extended.
 
@@ -2528,15 +2789,15 @@ Section 21B LTA 1985. The requirement that every service charge demand be accomp
 
 **Sections 47 and 48 LTA 1987.** A written demand must give the landlord’s name and address (s.47). The landlord must also furnish an address in England and Wales for the service of notices (s.48). Until each is complied with, the service charge or administration charge element is unenforceable, or treated as not being due. It is cured as soon as the information is supplied.
 
-Service charge. The amount payable by leaseholders for services, repairs, maintenance, insurance, and management of the building, as provided for under the lease.
+**Service charge.** The amount payable by leaseholders for services, repairs, maintenance, insurance, and management of the building, as provided for under the lease.
 
-Statement of case. The substantive document setting out a party’s position at tribunal, more detailed than the application form.
+**Statement of case.** The substantive document setting out a party’s position at tribunal, more detailed than the application form.
 
 **Statement of truth.** A signed declaration verifying a document. For a County Court statement of case, Practice Direction 22 prescribes the wording. It must include an acknowledgement that contempt of court proceedings may be brought against anyone who makes a false statement without an honest belief in its truth.
 
 **Stage 1 / Stage 2.** The stages of a typical managing agent’s complaints process. They end in a Final Response or Final Viewpoint letter, and potentially a referral to a redress scheme. A small number of agents have a third internal stage. Two is the dominant pattern.
 
-Strike out. A procedural step where the tribunal dismisses an application or part of an application without considering it on the merits.
+**Strike out.** A procedural step where the tribunal dismisses an application or part of an application without considering it on the merits.
 
 **Tribunal Procedure (First-tier Tribunal) (Property Chamber) Rules 2013.** The procedural rules governing the First-tier Tribunal (Property Chamber). They are Statutory Instrument 2013/1169, and the current form is at legislation.gov.uk/uksi/2013/1169.
 
@@ -2549,7 +2810,7 @@ This toolkit refers to:
 - rule 51 — setting aside a decision
 - rule 52 — permission to appeal
 
-Withholding payment. Refusing to pay a service charge demand. Generally not advisable except in narrow circumstances (e.g. non-compliance with Section 21B). “Pay under protest” is usually the safer approach.
+**Withholding payment.** Refusing to pay a service charge demand. Generally not advisable except in narrow circumstances (e.g. non-compliance with Section 21B). “Pay under protest” is usually the safer approach.
 
 ## Section C: Useful organisations
 
@@ -2571,9 +2832,9 @@ Two deadlines. Refer within 12 months of the agent’s final viewpoint letter. A
 
 - Website: tpos.co.uk
 
-**Property Redress (formerly the Property Redress)** The other government-approved redress scheme for managing agents. Same eight-week trigger as TPO. Which scheme applies depends on which one your agent belongs to. Check their website, or ask them.
+**Property Redress (formerly the Property Redress Scheme)** The other government-approved redress scheme for managing agents. Same eight-week trigger as TPO. Which scheme applies depends on which one your agent belongs to. Check their website, or ask them.
 
-- Website: propertyredress.co.uk (the old address propertyredress.co.uk now redirects here)
+- Website: propertyredress.co.uk (the old address theprs.co.uk redirects here)
 
 First-tier Tribunal (Property Chamber) The statutory tribunal for service charge and leasehold disputes in England.
 
