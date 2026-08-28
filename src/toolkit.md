@@ -2362,6 +2362,8 @@ A note on disclaimers: nothing in this appendix is legal advice. The templates r
 
 Use this when you have decided to escalate from informal communication to a formal complaint. Send it through the channel the agent’s published complaints procedure names. That is usually a dedicated complaints form or a complaints email address. Read that procedure before you copy a named contact. Some agents ask you not to, because it delays logging.
 
+::: template
+
 **Subject: Formal Stage 1 complaint — [PROPERTY ADDRESS]**
 
 Dear [Complaints Team / Named Person],
@@ -2391,8 +2393,10 @@ Please confirm receipt of this complaint and provide the case reference number. 
 
 Yours faithfully,
 
-[YOUR NAME]
+[YOUR NAME]\
 [DATE]
+
+:::
 
 Things to customise:
 
@@ -2403,6 +2407,8 @@ Things to customise:
 ### A2. Stage 2 escalation letter
 
 Use this when the Stage 1 response has been received and is unsatisfactory, or when the Stage 1 timeframe has elapsed without a substantive response.
+
+::: template
 
 **Subject: Stage 2 escalation — [PROPERTY ADDRESS] — Reference [STAGE 1 REFERENCE]**
 
@@ -2432,8 +2438,10 @@ I would also confirm that, in line with The Property Ombudsman’s published pro
 
 Yours faithfully,
 
-[YOUR NAME]
+[YOUR NAME]\
 [DATE]
+
+:::
 
 Things to customise:
 
@@ -2444,6 +2452,8 @@ Things to customise:
 ### A3. MP letter
 
 Use this when you want to enlist your MP for information leverage or constituent service. Most MPs accept correspondence by email through their parliamentary address (<!--email_off-->firstname.lastname.mp@parliament.uk<!--/email_off-->).
+
+::: template
 
 **Subject: Constituent matter — service charge dispute — [PROPERTY ADDRESS]**
 
@@ -2469,11 +2479,13 @@ I appreciate the demands on your time and would be grateful for any assistance y
 
 Yours sincerely,
 
-[YOUR NAME]
-[POSTAL ADDRESS — including postcode; MPs only act on letters from constituents in their constituency]
-[EMAIL ADDRESS]
-[PHONE NUMBER]
+[YOUR NAME]\
+[POSTAL ADDRESS — including postcode; MPs only act on letters from constituents in their constituency]\
+[EMAIL ADDRESS]\
+[PHONE NUMBER]\
 [DATE]
+
+:::
 
 Things to customise:
 
@@ -2484,6 +2496,8 @@ Things to customise:
 ### A4. Section 21 request — summary of relevant costs
 
 Use this to request a written summary of service charge costs under Section 21 of the Landlord and Tenant Act 1985.
+
+::: template
 
 **Subject: Request under Section 21 of the Landlord and Tenant Act 1985 — [PROPERTY ADDRESS]**
 
@@ -2499,7 +2513,18 @@ of any service charge account
 
 - The aggregate of any amounts received on account of service charges and any amounts paid out
 
-Where service charges are payable by tenants of more than four dwellings, please ensure the summary is certified by a qualified accountant in accordance with Section 21(6) of the Act. The Act requires you to provide this summary within one month of receipt of this request, or within six months of the end of the accounting period to which it relates, whichever is later. Failure to comply without reasonable excuse is a summary offence under Section 25 of the Act. I look forward to receiving the summary by [DATE — one month from sending]. Yours faithfully, [YOUR NAME] [DATE]
+Where service charges are payable by tenants of more than four dwellings, please ensure the summary is certified by a qualified accountant in accordance with Section 21(6) of the Act.
+
+The Act requires you to provide this summary within one month of receipt of this request, or within six months of the end of the accounting period to which it relates, whichever is later. Failure to comply without reasonable excuse is a summary offence under Section 25 of the Act.
+
+I look forward to receiving the summary by [DATE — one month from sending].
+
+Yours faithfully,
+
+[YOUR NAME]\
+[DATE]
+
+:::
 
 ### A5. Section 22 request — inspection of supporting documents
 
@@ -2510,6 +2535,8 @@ Use this once you have received a Section 21 summary, to inspect the underlying 
 Send it now. Do not wait for a Stage 1 or Stage 2 complaint, or an Ombudsman case, to finish first. Studying the summary properly is exactly what eats the six months.
 
 One trap. If you received service charge accounts voluntarily, rather than in response to a Section 21 request, the six months may already be running from that date.
+
+::: template
 
 **Subject: Request under Section 22 of the Landlord and Tenant Act 1985 — [PROPERTY ADDRESS]**
 
@@ -2523,8 +2550,10 @@ Please contact me to arrange a mutually convenient time and location for the ins
 
 Yours faithfully,
 
-[YOUR NAME]
+[YOUR NAME]\
 [DATE]
+
+:::
 
 ### A6. Tribunal application — what to include
 
@@ -2645,6 +2674,8 @@ Second, if the landlord applied and was refused, a further 14 days to apply to t
 
 You can send the demand earlier. Do not issue a County Court claim until both periods have run.
 
+::: template
+
 **Subject: Refund of overpaid service charges — [PROPERTY ADDRESS] — Tribunal case [REFERENCE]**
 
 Dear [MANAGING AGENT / FREEHOLDER],
@@ -2665,18 +2696,50 @@ Calculation of refund due:
 | [ITEM 2] | £X | [DATE] | £Y | [N] | £Z |
 | Subtotals |  |  | £[A] |  | £[B] |
 
-Tribunal application and hearing fees (per Tribunal direction): £[C] Total amount due: £[A + B + C] Interest is claimed at 8% per annum, the rate conventionally applied in the County Court, from the date of payment, in accordance with Section 69 of the County Courts Act 1984. Section 20C and Paragraph 5A orders: I note that the Tribunal made orders under Section 20C of the Landlord and Tenant Act 1985 and Paragraph 5A of Schedule 11 to the Commonhold and Leasehold Reform Act 2002 preventing recovery of the landlord’s costs of the proceedings through service charges or as administration charges. I would be grateful for confirmation that no element of the costs of these proceedings will be passed to leaseholders. Payment: Please make payment of £[TOTAL] to the following account by [DATE — typically 14 to 21 days from sending]: [BANK ACCOUNT DETAILS] If a credit to the service charge account is preferred to a cash refund, please confirm in writing that the credit has been applied, in the full amount including interest, and provide documentary confirmation. If payment is not received by [DATE], I will pursue recovery through the County Court without further notice. Yours faithfully, [YOUR NAME] [DATE]
+Tribunal application and hearing fees (per Tribunal direction): £[C]
+
+**Total amount due: £[A + B + C]**
+
+Interest is claimed at 8% per annum, the rate conventionally applied in the County Court, from the date of payment, in accordance with Section 69 of the County Courts Act 1984.
+
+Section 20C and Paragraph 5A orders: I note that the Tribunal made orders under Section 20C of the Landlord and Tenant Act 1985 and Paragraph 5A of Schedule 11 to the Commonhold and Leasehold Reform Act 2002 preventing recovery of the landlord’s costs of the proceedings through service charges or as administration charges. I would be grateful for confirmation that no element of the costs of these proceedings will be passed to leaseholders.
+
+Payment: Please make payment of £[TOTAL] to the following account by [DATE — typically 14 to 21 days from sending]:
+
+[BANK ACCOUNT DETAILS]
+
+If a credit to the service charge account is preferred to a cash refund, please confirm in writing that the credit has been applied, in the full amount including interest, and provide documentary confirmation. If payment is not received by [DATE], I will pursue recovery through the County Court without further notice.
+
+Yours faithfully,
+
+[YOUR NAME]\
+[DATE]
+
+:::
 
 ### A10. County Court particulars of claim (Money Claims / OCMC)
 If the formal demand is not paid, file a claim through the Money Claims Service (moneyclaims.service.gov.uk). The online form has a character limit; the particulars below show the structure to fit within it.
 
-Particulars of Claim 1. The Claimant is the leaseholder of [PROPERTY ADDRESS] under a lease dated [DATE OF LEASE]. 2. The Defendant is the freeholder/landlord of the property and was the Respondent in First-tier Tribunal (Property Chamber) proceedings under reference [TRIBUNAL CASE REFERENCE]. 3. By a decision dated [DATE], the Tribunal determined that the following service charges were not payable: [BRIEF SUMMARY OF DISALLOWED ITEMS AND AMOUNTS]. 4. The Claimant had previously paid the disputed sums totalling £[AMOUNT]. 5. The Claimant gave the Defendant formal notice of the refund due by letter dated [DATE OF DEMAND LETTER]. The Defendant has failed to pay. 6. The Claimant claims:
+::: template
 
-◦ The principal sum of £[AMOUNT] ◦ Interest at 8% per annum from the dates of payment under Section 69 of the County Courts Act 1984, calculated as £[INTEREST] to the date of issue and continuing at £[DAILY RATE] per day until judgment or earlier payment ◦ Reimbursement of tribunal fees of £[FEES] as ordered by the Tribunal ◦ Court fees and any other recoverable costs
+**Particulars of Claim**
+
+1. The Claimant is the leaseholder of [PROPERTY ADDRESS] under a lease dated [DATE OF LEASE].
+2. The Defendant is the freeholder/landlord of the property and was the Respondent in First-tier Tribunal (Property Chamber) proceedings under reference [TRIBUNAL CASE REFERENCE].
+3. By a decision dated [DATE], the Tribunal determined that the following service charges were not payable: [BRIEF SUMMARY OF DISALLOWED ITEMS AND AMOUNTS].
+4. The Claimant had previously paid the disputed sums totalling £[AMOUNT].
+5. The Claimant gave the Defendant formal notice of the refund due by letter dated [DATE OF DEMAND LETTER]. The Defendant has failed to pay.
+6. The Claimant claims:
+   - The principal sum of £[AMOUNT]
+   - Interest at 8% per annum from the dates of payment under Section 69 of the County Courts Act 1984, calculated as £[INTEREST] to the date of issue and continuing at £[DAILY RATE] per day until judgment or earlier payment
+   - Reimbursement of tribunal fees of £[FEES] as ordered by the Tribunal
+   - Court fees and any other recoverable costs
 
 **Statement of truth:** I believe that the facts stated in these Particulars of Claim are true. I understand that proceedings for contempt of court may be brought against anyone who makes, or causes to be made, a false statement in a document verified by a statement of truth without an honest belief in its truth.
 
 Signed: ____________  [YOUR NAME]  [DATE]
+
+:::
 
 Use that wording in full. Paragraph 2.1 of Practice Direction 22 prescribes it. The online Money Claims journey will present its own version for you to tick. If you file on paper or by email, type the wording above.
 
@@ -2698,9 +2761,9 @@ Use the settlement route instead, at paragraph 10A.1 of Practice Direction 51R. 
 
 **Before you send.** The money must be in your account, or the credit applied and confirmed in writing. Check that the payment covers the court issue fee and the interest, not just the principal. PD 51R 10A.1(4) lets you notify settlement only if everything is settled, including the fee and costs.
 
----
+::: template
 
-**Subject:** Claim [CLAIM NUMBER] — confirmation of settlement
+**Subject: Claim [CLAIM NUMBER] — confirmation of settlement**
 
 Dear [DEFENDANT’S SOLICITOR / DEFENDANT],
 
@@ -2711,9 +2774,11 @@ On that basis the claim is settled in its entirety, including the court fee and 
 Please confirm by return that you agree the claim is settled on these terms and will not object when the court notifies you.
 
 Yours faithfully,
-[YOUR NAME] / [DATE]
 
----
+[YOUR NAME]\
+[DATE]
+
+:::
 
 **After sending**
 
@@ -2889,70 +2954,99 @@ Companies House Public records of UK companies — directors, accounts, ownershi
 
 This is the toolkit at a glance. Use it to orient yourself at any point in the process.
 
-```
-┌────────────────────────────────────────────────────────────────┐
-│ Do I have a service charge concern?                            │
-└───────────────────────────────┬────────────────────────────────┘
-                                │
-                                ▼
-┌────────────────────────────────────────────────────────────────┐
-│ PHASE 1: Recognise the problem and build evidence              │
-│ - Categorise (level / conduct / lease itself)                  │
-│ - Document everything in writing                               │
-│ - Decide if it is worth pursuing                               │
-└───────────────────────────────┬────────────────────────────────┘
-                                │ Yes — it is worth pursuing
-                                ▼
-┌────────────────────────────────────────────────────────────────┐
-│ PHASE 2: Internal complaints process                           │
-│ - Stage 1 formal complaint                                     │
-│ - Stage 2 escalation (if needed)                               │
-│ - 8 weeks from Stage 1: external escalation unlocked           │
-└───────────────────────────────┬────────────────────────────────┘
-                                │
-                                ▼
-┌────────────────────────────────────────────────────────────────┐
-│ What kind of dispute is this?                                  │
-└─────────────┬─────────────────────────────────┬────────────────┘
-              │                                 │
-        Conduct only            Substance (level / reasonableness)
-                                — with or without conduct issues
-              │                                 │
-              ▼                                 ▼
-┌────────────────────────────┐  ┌────────────────────────────────┐
-│ PHASE 3 (redress)          │  │ PHASE 3 (parallel routes)      │
-│ - File with TPO /          │  │ - MP for information leverage  │
-│   Property Redress         │  │ - Companies House for evidence │
-│ - Limited compensation     │  │ - FCA / Energy Ombudsman as    │
-│ - Conduct findings         │  │   relevant                     │
-│                            │  │ - LEASE for advice             │
-└────────────────────────────┘  └───────────────┬────────────────┘
-                                                │
-                                                ▼
-┌────────────────────────────────────────────────────────────────┐
-│ PHASE 4: First-tier Tribunal                                   │
-│ - Application under Section 27A                                │
-│ - Apply for Section 20C, Paragraph 5A, fee reimbursement       │
-│ - Statement of case + evidence                                 │
-│ - Hearing                                                      │
-│ - Decision                                                     │
-└───────────────────────────────────────────────┬────────────────┘
-                                                │ Won (in whole or part)
-                                                ▼
-┌────────────────────────────────────────────────────────────────┐
-│ PHASE 5: Recovery                                              │
-│ - Calculate refund + interest                                  │
-│ - Formal demand                                                │
-│ - County Court if necessary                                    │
-│ - Watch future demands                                         │
-└───────────────────────────────────────────────┬────────────────┘
-                                                │
-                                                ▼
-┌────────────────────────────────────────────────────────────────┐
-│ Optional: consider Right to Manage if dispute reveals          │
-│ deeper structural issue with management                        │
-└────────────────────────────────────────────────────────────────┘
-```
+:::: tree
+
+::: tree-q
+**Do I have a service charge concern?**
+:::
+
+::: tree-gate
+:::
+
+::: tree-card
+**Phase 1 — Recognise the problem and build evidence**
+
+- Categorise (level / conduct / lease itself)
+- Document everything in writing
+- Decide if it is worth pursuing
+:::
+
+::: tree-gate
+Yes — it is worth pursuing
+:::
+
+::: tree-card
+**Phase 2 — Internal complaints process**
+
+- Stage 1 formal complaint
+- Stage 2 escalation (if needed)
+- 8 weeks from Stage 1: external escalation unlocked
+:::
+
+::: tree-gate
+:::
+
+::: tree-q
+**What kind of dispute is this?**
+:::
+
+:::: tree-branch
+
+::: {.tree-card .tree-end}
+**Conduct only → redress scheme**
+
+- File with TPO / Property Redress
+- Limited compensation
+- Conduct findings
+
+*This branch usually ends here.*
+:::
+
+::: tree-card
+**Substance (level / reasonableness) → parallel routes**
+
+- MP for information leverage
+- Companies House for evidence
+- FCA / Energy Ombudsman as relevant
+- LEASE for advice
+:::
+
+::::
+
+::: tree-gate
+:::
+
+::: tree-card
+**Phase 4 — First-tier Tribunal**
+
+- Application under Section 27A
+- Apply for Section 20C, Paragraph 5A, fee reimbursement
+- Statement of case + evidence
+- Hearing
+- Decision
+:::
+
+::: tree-gate
+Won — in whole or in part
+:::
+
+::: tree-card
+**Phase 5 — Recovery**
+
+- Calculate refund + interest
+- Formal demand
+- County Court if necessary
+- Watch future demands
+:::
+
+::: tree-gate
+:::
+
+::: tree-opt
+Optional: consider Right to Manage if the dispute reveals a deeper structural issue with management
+:::
+
+::::
 
 Reminder: you can stop at any phase. The decision to not proceed is as legitimate as the decision to continue.
 

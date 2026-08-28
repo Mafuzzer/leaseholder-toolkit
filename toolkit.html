@@ -23,35 +23,35 @@ vertical-align: middle;
 .display.math{display: block; text-align: center; margin: 0.5rem auto;}
 </style>
   <style type="text/css">:root {
---ink: #1a1a18;
---ink-soft: #55534e;
---ground: #fbfaf7;
---panel: #f2f0ea;
---rule: #d8d4c9;
---accent: #7a2e1e;
---accent-soft: #a4553f;
+--ink: #1A1D20;
+--ink-soft: #4E5760;
+--ground: #FAFBFC;
+--panel: #EEF2F5;
+--rule: #D6DCE2;
+--accent: #1B3C59;
+--accent-soft: #3E608A;
 --measure: 34rem;
 }
 @media (prefers-color-scheme: dark) {
 :root:not([data-theme="light"]) {
---ink: #e8e5de;
---ink-soft: #a8a49a;
---ground: #16151300;
---ground: #161513;
---panel: #201e1b;
---rule: #35322c;
---accent: #d98b73;
---accent-soft: #c4735c;
+--ink: #E4E8EC;
+--ink-soft: #9AA5AE;
+--ground: #14171A00;
+--ground: #14171A;
+--panel: #1C2126;
+--rule: #303841;
+--accent: #92B6D5;
+--accent-soft: #7FA3C4;
 }
 }
 :root[data-theme="dark"] {
---ink: #e8e5de;
---ink-soft: #a8a49a;
---ground: #161513;
---panel: #201e1b;
---rule: #35322c;
---accent: #d98b73;
---accent-soft: #c4735c;
+--ink: #E4E8EC;
+--ink-soft: #9AA5AE;
+--ground: #14171A;
+--panel: #1C2126;
+--rule: #303841;
+--accent: #92B6D5;
+--accent-soft: #7FA3C4;
 }
 * { box-sizing: border-box; }
 html {
@@ -185,6 +185,57 @@ hr { border: 0; border-top: 1px solid var(--rule); margin: 2.5rem 0; }
 body { max-width: none; }
 nav#TOC { break-after: page; }
 }
+
+.template {
+border: 1px solid var(--rule);
+border-top: 4px solid var(--accent);
+background: var(--panel);
+border-radius: 3px;
+padding: 1.3rem 1.4rem 1.1rem;
+margin: 1.2rem 0 1.5rem;
+}
+.template::before {
+content: "Template — copy and adapt";
+display: block;
+font-family: "Helvetica Neue", Helvetica, sans-serif;
+font-size: .72rem; letter-spacing: .1em; text-transform: uppercase;
+color: var(--accent); font-weight: 600;
+margin-bottom: 1rem;
+}
+.template p:last-child { margin-bottom: 0; }
+
+.tree { font-size: .92rem; }
+.tree p { margin: 0 0 .4rem; }
+.tree ul { margin: 0; padding-left: 1.2rem; }
+.tree li { margin-bottom: .25rem; }
+.tree-q {
+border: 1.5px solid var(--accent); background: var(--panel);
+border-radius: 4px; padding: .6rem .9rem; text-align: center;
+font-family: "Helvetica Neue", Helvetica, sans-serif;
+}
+.tree-q p { margin: 0; }
+.tree-card {
+border: 1px solid var(--rule); border-left: 4px solid var(--accent);
+border-radius: 3px; padding: .7rem 1rem; background: var(--ground);
+}
+.tree-card > p:first-child { font-family: "Helvetica Neue", Helvetica, sans-serif; }
+.tree-end { border-left-color: var(--rule); background: var(--panel); }
+.tree-end em { color: var(--ink-soft); }
+.tree-gate {
+text-align: center; font-family: "Helvetica Neue", Helvetica, sans-serif;
+font-size: .78rem; letter-spacing: .06em; color: var(--ink-soft);
+margin: .3rem 0;
+}
+.tree-gate p { margin: 0; }
+.tree-gate::after { content: "▼"; display: block; color: var(--accent); font-size: .8rem; margin-top: .15rem; }
+.tree-branch { display: flex; gap: .9rem; flex-wrap: wrap; }
+.tree-branch > div { flex: 1 1 240px; }
+.tree-opt {
+border: 1.5px dashed var(--rule); border-radius: 4px;
+padding: .6rem .9rem; text-align: center;
+color: var(--ink-soft); font-style: italic;
+}
+.tree-opt p { margin: 0; }
 </style>
 </head>
 <body>
@@ -4546,6 +4597,7 @@ agent’s published complaints procedure names. That is usually a
 dedicated complaints form or a complaints email address. Read that
 procedure before you copy a named contact. Some agents ask you not to,
 because it delays logging.</p>
+<div class="template">
 <p><strong>Subject: Formal Stage 1 complaint — [PROPERTY
 ADDRESS]</strong></p>
 <p>Dear [Complaints Team / Named Person],</p>
@@ -4580,7 +4632,9 @@ charge demand reflecting the corrections identified”]</li>
 reference number. I look forward to your substantive response within the
 timeframe set out in your complaints procedure.</p>
 <p>Yours faithfully,</p>
-<p>[YOUR NAME] [DATE]</p>
+<p>[YOUR NAME]<br />
+[DATE]</p>
+</div>
 <p>Things to customise:</p>
 <ul>
 <li>Be specific about each issue. Generic complaints get generic
@@ -4595,6 +4649,7 @@ letter</h3>
 <p>Use this when the Stage 1 response has been received and is
 unsatisfactory, or when the Stage 1 timeframe has elapsed without a
 substantive response.</p>
+<div class="template">
 <p><strong>Subject: Stage 2 escalation — [PROPERTY ADDRESS] — Reference
 [STAGE 1 REFERENCE]</strong></p>
 <p>Dear [Senior Manager / Complaints Team],</p>
@@ -4630,7 +4685,9 @@ will pass on [DATE 8 WEEKS AFTER STAGE 1]. If a satisfactory final
 response has not been received by that date, I reserve the right to
 refer the matter to the redress scheme.</p>
 <p>Yours faithfully,</p>
-<p>[YOUR NAME] [DATE]</p>
+<p>[YOUR NAME]<br />
+[DATE]</p>
+</div>
 <p>Things to customise:</p>
 <ul>
 <li>Be specific about why the Stage 1 response was unsatisfactory. “I am
@@ -4645,6 +4702,7 @@ it.</li>
 constituent service. Most MPs accept correspondence by email through
 their parliamentary address
 (<!--email_off-->firstname.lastname.mp@parliament.uk<!--/email_off-->).</p>
+<div class="template">
 <p><strong>Subject: Constituent matter — service charge dispute —
 [PROPERTY ADDRESS]</strong></p>
 <p>Dear [MR/MS/MRS LASTNAME],</p>
@@ -4684,9 +4742,13 @@ at most]</li>
 assistance you can provide. I am happy to provide further detail if
 helpful.</p>
 <p>Yours sincerely,</p>
-<p>[YOUR NAME] [POSTAL ADDRESS — including postcode; MPs only act on
-letters from constituents in their constituency] [EMAIL ADDRESS] [PHONE
-NUMBER] [DATE]</p>
+<p>[YOUR NAME]<br />
+[POSTAL ADDRESS — including postcode; MPs only act on letters from
+constituents in their constituency]<br />
+[EMAIL ADDRESS]<br />
+[PHONE NUMBER]<br />
+[DATE]</p>
+</div>
 <p>Things to customise:</p>
 <ul>
 <li>Include your full postal address. MPs verify constituency before
@@ -4700,6 +4762,7 @@ separately.</li>
 request — summary of relevant costs</h3>
 <p>Use this to request a written summary of service charge costs under
 Section 21 of the Landlord and Tenant Act 1985.</p>
+<div class="template">
 <p><strong>Subject: Request under Section 21 of the Landlord and Tenant
 Act 1985 — [PROPERTY ADDRESS]</strong></p>
 <p>Dear [LANDLORD / MANAGING AGENT],</p>
@@ -4719,13 +4782,18 @@ charges and any amounts paid out</p></li>
 </ul>
 <p>Where service charges are payable by tenants of more than four
 dwellings, please ensure the summary is certified by a qualified
-accountant in accordance with Section 21(6) of the Act. The Act requires
-you to provide this summary within one month of receipt of this request,
-or within six months of the end of the accounting period to which it
-relates, whichever is later. Failure to comply without reasonable excuse
-is a summary offence under Section 25 of the Act. I look forward to
-receiving the summary by [DATE — one month from sending]. Yours
-faithfully, [YOUR NAME] [DATE]</p>
+accountant in accordance with Section 21(6) of the Act.</p>
+<p>The Act requires you to provide this summary within one month of
+receipt of this request, or within six months of the end of the
+accounting period to which it relates, whichever is later. Failure to
+comply without reasonable excuse is a summary offence under Section 25
+of the Act.</p>
+<p>I look forward to receiving the summary by [DATE — one month from
+sending].</p>
+<p>Yours faithfully,</p>
+<p>[YOUR NAME]<br />
+[DATE]</p>
+</div>
 <h3 id="a5.-section-22-request-inspection-of-supporting-documents">A5.
 Section 22 request — inspection of supporting documents</h3>
 <p>Use this once you have received a Section 21 summary, to inspect the
@@ -4740,6 +4808,7 @@ exactly what eats the six months.</p>
 <p>One trap. If you received service charge accounts voluntarily, rather
 than in response to a Section 21 request, the six months may already be
 running from that date.</p>
+<div class="template">
 <p><strong>Subject: Request under Section 22 of the Landlord and Tenant
 Act 1985 — [PROPERTY ADDRESS]</strong></p>
 <p>Dear [LANDLORD / MANAGING AGENT],</p>
@@ -4756,7 +4825,9 @@ copying.</p>
 for the inspection. I would be grateful if the inspection could be
 arranged for a date within the next four weeks.</p>
 <p>Yours faithfully,</p>
-<p>[YOUR NAME] [DATE]</p>
+<p>[YOUR NAME]<br />
+[DATE]</p>
+</div>
 <h3 id="a6.-tribunal-application-what-to-include">A6. Tribunal
 application — what to include</h3>
 <p>The official form is <strong>Leasehold 3</strong>, “Apply for
@@ -4936,6 +5007,7 @@ apply to the Upper Tribunal (Lands Chamber). That is rule 21(2) of the
 Tribunal Procedure (Upper Tribunal) (Lands Chamber) Rules 2010.</p>
 <p>You can send the demand earlier. Do not issue a County Court claim
 until both periods have run.</p>
+<div class="template">
 <p><strong>Subject: Refund of overpaid service charges — [PROPERTY
 ADDRESS] — Tribunal case [REFERENCE]</strong></p>
 <p>Dear [MANAGING AGENT / FREEHOLDER],</p>
@@ -4996,52 +5068,72 @@ amounts were not payable:</p>
 </tr>
 </tbody>
 </table>
-<p>Tribunal application and hearing fees (per Tribunal direction): £[C]
-Total amount due: £[A + B + C] Interest is claimed at 8% per annum, the
-rate conventionally applied in the County Court, from the date of
-payment, in accordance with Section 69 of the County Courts Act 1984.
-Section 20C and Paragraph 5A orders: I note that the Tribunal made
+<p>Tribunal application and hearing fees (per Tribunal direction):
+£[C]</p>
+<p><strong>Total amount due: £[A + B + C]</strong></p>
+<p>Interest is claimed at 8% per annum, the rate conventionally applied
+in the County Court, from the date of payment, in accordance with
+Section 69 of the County Courts Act 1984.</p>
+<p>Section 20C and Paragraph 5A orders: I note that the Tribunal made
 orders under Section 20C of the Landlord and Tenant Act 1985 and
 Paragraph 5A of Schedule 11 to the Commonhold and Leasehold Reform Act
 2002 preventing recovery of the landlord’s costs of the proceedings
 through service charges or as administration charges. I would be
 grateful for confirmation that no element of the costs of these
-proceedings will be passed to leaseholders. Payment: Please make payment
-of £[TOTAL] to the following account by [DATE — typically 14 to 21 days
-from sending]: [BANK ACCOUNT DETAILS] If a credit to the service charge
-account is preferred to a cash refund, please confirm in writing that
-the credit has been applied, in the full amount including interest, and
-provide documentary confirmation. If payment is not received by [DATE],
-I will pursue recovery through the County Court without further notice.
-Yours faithfully, [YOUR NAME] [DATE]</p>
+proceedings will be passed to leaseholders.</p>
+<p>Payment: Please make payment of £[TOTAL] to the following account by
+[DATE — typically 14 to 21 days from sending]:</p>
+<p>[BANK ACCOUNT DETAILS]</p>
+<p>If a credit to the service charge account is preferred to a cash
+refund, please confirm in writing that the credit has been applied, in
+the full amount including interest, and provide documentary
+confirmation. If payment is not received by [DATE], I will pursue
+recovery through the County Court without further notice.</p>
+<p>Yours faithfully,</p>
+<p>[YOUR NAME]<br />
+[DATE]</p>
+</div>
 <h3 id="a10.-county-court-particulars-of-claim-money-claims-ocmc">A10.
 County Court particulars of claim (Money Claims / OCMC)</h3>
 <p>If the formal demand is not paid, file a claim through the Money
 Claims Service (moneyclaims.service.gov.uk). The online form has a
 character limit; the particulars below show the structure to fit within
 it.</p>
-<p>Particulars of Claim 1. The Claimant is the leaseholder of [PROPERTY
-ADDRESS] under a lease dated [DATE OF LEASE]. 2. The Defendant is the
-freeholder/landlord of the property and was the Respondent in First-tier
-Tribunal (Property Chamber) proceedings under reference [TRIBUNAL CASE
-REFERENCE]. 3. By a decision dated [DATE], the Tribunal determined that
-the following service charges were not payable: [BRIEF SUMMARY OF
-DISALLOWED ITEMS AND AMOUNTS]. 4. The Claimant had previously paid the
-disputed sums totalling £[AMOUNT]. 5. The Claimant gave the Defendant
-formal notice of the refund due by letter dated [DATE OF DEMAND LETTER].
-The Defendant has failed to pay. 6. The Claimant claims:</p>
-<p>◦ The principal sum of £[AMOUNT] ◦ Interest at 8% per annum from the
-dates of payment under Section 69 of the County Courts Act 1984,
-calculated as £[INTEREST] to the date of issue and continuing at £[DAILY
-RATE] per day until judgment or earlier payment ◦ Reimbursement of
-tribunal fees of £[FEES] as ordered by the Tribunal ◦ Court fees and any
-other recoverable costs</p>
+<div class="template">
+<p><strong>Particulars of Claim</strong></p>
+<ol type="1">
+<li>The Claimant is the leaseholder of [PROPERTY ADDRESS] under a lease
+dated [DATE OF LEASE].</li>
+<li>The Defendant is the freeholder/landlord of the property and was the
+Respondent in First-tier Tribunal (Property Chamber) proceedings under
+reference [TRIBUNAL CASE REFERENCE].</li>
+<li>By a decision dated [DATE], the Tribunal determined that the
+following service charges were not payable: [BRIEF SUMMARY OF DISALLOWED
+ITEMS AND AMOUNTS].</li>
+<li>The Claimant had previously paid the disputed sums totalling
+£[AMOUNT].</li>
+<li>The Claimant gave the Defendant formal notice of the refund due by
+letter dated [DATE OF DEMAND LETTER]. The Defendant has failed to
+pay.</li>
+<li>The Claimant claims:
+<ul>
+<li>The principal sum of £[AMOUNT]</li>
+<li>Interest at 8% per annum from the dates of payment under Section 69
+of the County Courts Act 1984, calculated as £[INTEREST] to the date of
+issue and continuing at £[DAILY RATE] per day until judgment or earlier
+payment</li>
+<li>Reimbursement of tribunal fees of £[FEES] as ordered by the
+Tribunal</li>
+<li>Court fees and any other recoverable costs</li>
+</ul></li>
+</ol>
 <p><strong>Statement of truth:</strong> I believe that the facts stated
 in these Particulars of Claim are true. I understand that proceedings
 for contempt of court may be brought against anyone who makes, or causes
 to be made, a false statement in a document verified by a statement of
 truth without an honest belief in its truth.</p>
 <p>Signed: ____________ [YOUR NAME] [DATE]</p>
+</div>
 <p>Use that wording in full. Paragraph 2.1 of Practice Direction 22
 prescribes it. The online Money Claims journey will present its own
 version for you to tick. If you file on paper or by email, type the
@@ -5075,9 +5167,9 @@ or the credit applied and confirmed in writing. Check that the payment
 covers the court issue fee and the interest, not just the principal. PD
 51R 10A.1(4) lets you notify settlement only if everything is settled,
 including the fee and costs.</p>
-<hr />
-<p><strong>Subject:</strong> Claim [CLAIM NUMBER] — confirmation of
-settlement</p>
+<div class="template">
+<p><strong>Subject: Claim [CLAIM NUMBER] — confirmation of
+settlement</strong></p>
 <p>Dear [DEFENDANT’S SOLICITOR / DEFENDANT],</p>
 <p>I acknowledge receipt of £[AMOUNT] [received into my account /
 credited to my service charge account] on [DATE]. This comprises the
@@ -5090,8 +5182,10 @@ service, under paragraph 10A.1 of Practice Direction 51R. I am not
 discontinuing the claim.</p>
 <p>Please confirm by return that you agree the claim is settled on these
 terms and will not object when the court notifies you.</p>
-<p>Yours faithfully, [YOUR NAME] / [DATE]</p>
-<hr />
+<p>Yours faithfully,</p>
+<p>[YOUR NAME]<br />
+[DATE]</p>
+</div>
 <p><strong>After sending</strong></p>
 <ol type="1">
 <li>Get the defendant’s written agreement if you can. They have 19 days
@@ -5363,68 +5457,93 @@ ownership. Free search.</p>
 tree</h2>
 <p>This is the toolkit at a glance. Use it to orient yourself at any
 point in the process.</p>
-<pre><code>┌────────────────────────────────────────────────────────────────┐
-│ Do I have a service charge concern?                            │
-└───────────────────────────────┬────────────────────────────────┘
-                                │
-                                ▼
-┌────────────────────────────────────────────────────────────────┐
-│ PHASE 1: Recognise the problem and build evidence              │
-│ - Categorise (level / conduct / lease itself)                  │
-│ - Document everything in writing                               │
-│ - Decide if it is worth pursuing                               │
-└───────────────────────────────┬────────────────────────────────┘
-                                │ Yes — it is worth pursuing
-                                ▼
-┌────────────────────────────────────────────────────────────────┐
-│ PHASE 2: Internal complaints process                           │
-│ - Stage 1 formal complaint                                     │
-│ - Stage 2 escalation (if needed)                               │
-│ - 8 weeks from Stage 1: external escalation unlocked           │
-└───────────────────────────────┬────────────────────────────────┘
-                                │
-                                ▼
-┌────────────────────────────────────────────────────────────────┐
-│ What kind of dispute is this?                                  │
-└─────────────┬─────────────────────────────────┬────────────────┘
-              │                                 │
-        Conduct only            Substance (level / reasonableness)
-                                — with or without conduct issues
-              │                                 │
-              ▼                                 ▼
-┌────────────────────────────┐  ┌────────────────────────────────┐
-│ PHASE 3 (redress)          │  │ PHASE 3 (parallel routes)      │
-│ - File with TPO /          │  │ - MP for information leverage  │
-│   Property Redress         │  │ - Companies House for evidence │
-│ - Limited compensation     │  │ - FCA / Energy Ombudsman as    │
-│ - Conduct findings         │  │   relevant                     │
-│                            │  │ - LEASE for advice             │
-└────────────────────────────┘  └───────────────┬────────────────┘
-                                                │
-                                                ▼
-┌────────────────────────────────────────────────────────────────┐
-│ PHASE 4: First-tier Tribunal                                   │
-│ - Application under Section 27A                                │
-│ - Apply for Section 20C, Paragraph 5A, fee reimbursement       │
-│ - Statement of case + evidence                                 │
-│ - Hearing                                                      │
-│ - Decision                                                     │
-└───────────────────────────────────────────────┬────────────────┘
-                                                │ Won (in whole or part)
-                                                ▼
-┌────────────────────────────────────────────────────────────────┐
-│ PHASE 5: Recovery                                              │
-│ - Calculate refund + interest                                  │
-│ - Formal demand                                                │
-│ - County Court if necessary                                    │
-│ - Watch future demands                                         │
-└───────────────────────────────────────────────┬────────────────┘
-                                                │
-                                                ▼
-┌────────────────────────────────────────────────────────────────┐
-│ Optional: consider Right to Manage if dispute reveals          │
-│ deeper structural issue with management                        │
-└────────────────────────────────────────────────────────────────┘</code></pre>
+<div class="tree">
+<div class="tree-q">
+<p><strong>Do I have a service charge concern?</strong></p>
+</div>
+<div class="tree-gate">
+
+</div>
+<div class="tree-card">
+<p><strong>Phase 1 — Recognise the problem and build
+evidence</strong></p>
+<ul>
+<li>Categorise (level / conduct / lease itself)</li>
+<li>Document everything in writing</li>
+<li>Decide if it is worth pursuing</li>
+</ul>
+</div>
+<div class="tree-gate">
+<p>Yes — it is worth pursuing</p>
+</div>
+<div class="tree-card">
+<p><strong>Phase 2 — Internal complaints process</strong></p>
+<ul>
+<li>Stage 1 formal complaint</li>
+<li>Stage 2 escalation (if needed)</li>
+<li>8 weeks from Stage 1: external escalation unlocked</li>
+</ul>
+</div>
+<div class="tree-gate">
+
+</div>
+<div class="tree-q">
+<p><strong>What kind of dispute is this?</strong></p>
+</div>
+<div class="tree-branch">
+<div class="tree-card tree-end">
+<p><strong>Conduct only → redress scheme</strong></p>
+<ul>
+<li>File with TPO / Property Redress</li>
+<li>Limited compensation</li>
+<li>Conduct findings</li>
+</ul>
+<p><em>This branch usually ends here.</em></p>
+</div>
+<div class="tree-card">
+<p><strong>Substance (level / reasonableness) → parallel
+routes</strong></p>
+<ul>
+<li>MP for information leverage</li>
+<li>Companies House for evidence</li>
+<li>FCA / Energy Ombudsman as relevant</li>
+<li>LEASE for advice</li>
+</ul>
+</div>
+</div>
+<div class="tree-gate">
+
+</div>
+<div class="tree-card">
+<p><strong>Phase 4 — First-tier Tribunal</strong></p>
+<ul>
+<li>Application under Section 27A</li>
+<li>Apply for Section 20C, Paragraph 5A, fee reimbursement</li>
+<li>Statement of case + evidence</li>
+<li>Hearing</li>
+<li>Decision</li>
+</ul>
+</div>
+<div class="tree-gate">
+<p>Won — in whole or in part</p>
+</div>
+<div class="tree-card">
+<p><strong>Phase 5 — Recovery</strong></p>
+<ul>
+<li>Calculate refund + interest</li>
+<li>Formal demand</li>
+<li>County Court if necessary</li>
+<li>Watch future demands</li>
+</ul>
+</div>
+<div class="tree-gate">
+
+</div>
+<div class="tree-opt">
+<p>Optional: consider Right to Manage if the dispute reveals a deeper
+structural issue with management</p>
+</div>
+</div>
 <p>Reminder: you can stop at any phase. The decision to not proceed is
 as legitimate as the decision to continue.</p>
 <h2 id="a-final-note">A final note</h2>
