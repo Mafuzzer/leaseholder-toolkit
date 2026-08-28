@@ -1,35 +1,141 @@
+/* The Leaseholder's Toolkit — print edition.
+   Palette: ink #1a1a18 · soft #55534e · brick accent #7a2e1e · rule #d8d4c9 · panel #f4f2ec
+   Matches the web edition's identity. Built for WeasyPrint. */
+
 @page {
   size: A4;
-  margin: 22mm 20mm 20mm 20mm;
-  @bottom-center { content: counter(page); font-family: serif; font-size: 9pt; color: #555; }
+  margin: 24mm 20mm 22mm 20mm;
+  @top-left {
+    content: "THE LEASEHOLDER’S TOOLKIT";
+    font-family: "Liberation Sans", sans-serif;
+    font-size: 6.5pt; letter-spacing: .14em; color: #8a867c;
+    margin-bottom: 6mm;
+  }
+  @top-right {
+    content: string(chapter);
+    font-family: "Liberation Sans", sans-serif;
+    font-size: 6.5pt; letter-spacing: .06em; color: #8a867c;
+    margin-bottom: 6mm;
+  }
+  @bottom-center {
+    content: counter(page);
+    font-family: "Liberation Sans", sans-serif;
+    font-size: 8pt; color: #55534e;
+  }
 }
-html { font-family: "Liberation Serif", "DejaVu Serif", Georgia, serif; font-size: 11pt; line-height: 1.45; }
-body { color: #111; }
-h1 { font-family: "Liberation Sans", "DejaVu Sans", Helvetica, sans-serif;
-     font-size: 20pt; margin: 0 0 1.2em; padding-bottom: .3em;
-     border-bottom: 2px solid #333; break-before: page; break-after: avoid; }
-h1:first-of-type { break-before: avoid; }
-h2 { font-family: "Liberation Sans", "DejaVu Sans", Helvetica, sans-serif;
-     font-size: 13pt; margin: 1.6em 0 .5em; break-after: avoid; }
-h3 { font-size: 11.5pt; margin: 1.2em 0 .4em; break-after: avoid; }
-p { margin: 0 0 .7em; text-align: justify; hyphens: auto; orphans: 2; widows: 2; }
-ul, ol { margin: 0 0 .8em; padding-left: 1.4em; }
-li { margin-bottom: .35em; }
-table { border-collapse: collapse; width: 100%; margin: .8em 0 1.2em; font-size: 9.5pt; break-inside: avoid; }
-th, td { border: 1px solid #bbb; padding: 5px 7px; text-align: left; vertical-align: top; }
-th { background: #f0f0f0; font-family: "Liberation Sans", sans-serif; font-size: 9pt; }
-strong { font-weight: 700; }
-code, pre { font-family: "DejaVu Sans Mono", monospace; font-size: 9pt; }
-pre { background: #f7f7f7; padding: 8px; border-left: 3px solid #ccc; white-space: pre-wrap; break-inside: avoid; }
-blockquote { margin: .8em 0 .8em 1em; padding-left: .9em; border-left: 3px solid #ccc; color: #333; }
-#TOC { break-after: page; }
-#TOC ul { list-style: none; padding-left: 1em; }
-#TOC > ul { padding-left: 0; }
+@page :first {
+  margin: 0;
+  @top-left { content: none; }
+  @top-right { content: none; }
+  @bottom-center { content: none; }
+}
 
-#TOC a { color: #111; text-decoration: none; }
-#TOC li { margin-bottom: .18em; }
-a { color: #111; text-decoration: none; }
-h3 { font-family: "Liberation Sans", sans-serif; font-size: 10.5pt; margin: 1.3em 0 .4em; break-after: avoid; }
-/* Section D: force the decision tree onto its own page and size it to fit */
+html { font-family: "Liberation Serif", "DejaVu Serif", Georgia, serif;
+       font-size: 10.5pt; line-height: 1.5; }
+body { color: #1a1a18; }
+
+/* ---- cover ---- */
+header#title-block-header {
+  page-break-after: always;
+  background: #7a2e1e;
+  color: #f6f1ea;
+  height: 297mm;
+  padding: 60mm 24mm 0;
+}
+header#title-block-header h1.title {
+  font-family: "Liberation Sans", sans-serif;
+  font-size: 34pt; line-height: 1.1; font-weight: 700;
+  margin: 0 0 8mm; letter-spacing: -0.01em;
+  border-top: 1.2mm solid #f6f1ea; padding-top: 8mm;
+}
+header#title-block-header p.subtitle {
+  font-size: 13pt; font-style: italic; color: #e8d9cf; margin: 0 0 4mm;
+}
+header#title-block-header p.date {
+  font-family: "Liberation Sans", sans-serif;
+  font-size: 10pt; letter-spacing: .18em; color: #d9bfb2; margin-top: 12mm;
+}
+
+/* ---- contents ---- */
+#TOC { page-break-after: always; font-family: "Liberation Sans", sans-serif; }
+#TOC::before {
+  content: "Contents";
+  display: block;
+  font-size: 16pt; font-weight: 700; color: #1a1a18;
+  border-bottom: 0.6mm solid #7a2e1e;
+  padding-bottom: 3mm; margin-bottom: 6mm;
+}
+#TOC ul { list-style: none; padding-left: 0; margin: 0; }
+#TOC > ul > li { margin: 2.6mm 0 1mm; font-weight: 700; font-size: 10pt; }
+#TOC > ul > li > ul { margin-top: 1.2mm; }
+#TOC ul ul li { font-weight: 400; font-size: 9pt; margin: 0 0 .9mm; padding-left: 5mm; }
+#TOC a { color: #1a1a18; text-decoration: none; }
+#TOC a::after {
+  content: leader(". ") target-counter(attr(href), page);
+  color: #55534e; font-weight: 400;
+}
+
+/* ---- headings ---- */
+h1:not(.title) {
+  string-set: chapter content();
+  font-family: "Liberation Sans", sans-serif;
+  font-size: 21pt; line-height: 1.15; letter-spacing: -0.01em;
+  page-break-before: always; break-after: avoid;
+  border-top: 1.1mm solid #7a2e1e;
+  padding-top: 5mm; margin: 0 0 7mm;
+}
+h2 {
+  font-family: "Liberation Sans", sans-serif;
+  font-size: 12.5pt; color: #7a2e1e;
+  margin: 6mm 0 2.4mm; break-after: avoid;
+}
+h3 {
+  font-family: "Liberation Sans", sans-serif;
+  font-size: 10.5pt; margin: 4.5mm 0 1.8mm; break-after: avoid;
+}
+
+p { margin: 0 0 2.6mm; text-align: justify; hyphens: auto; orphans: 2; widows: 2; }
+a { color: #1a1a18; text-decoration: none; }
+
+ul, ol { margin: 0 0 3mm; padding-left: 5.5mm; }
+li { margin-bottom: 1.2mm; }
+li > p { margin-bottom: 1.2mm; }
+ul li::marker { color: #7a2e1e; }
+
+strong { font-weight: 700; }
+
+/* ---- tables ---- */
+table {
+  border-collapse: collapse; width: 100%;
+  margin: 3mm 0 4.5mm; font-size: 8.8pt;
+  break-inside: avoid;
+}
+th {
+  font-family: "Liberation Sans", sans-serif; font-size: 8.2pt;
+  text-align: left; padding: 1.8mm 2.2mm;
+  border-bottom: 0.55mm solid #7a2e1e;
+  background: none; color: #1a1a18;
+}
+td {
+  padding: 1.6mm 2.2mm; vertical-align: top;
+  border-bottom: 0.2mm solid #d8d4c9;
+}
+tr:last-child td { border-bottom: 0.35mm solid #b9b4a6; }
+
+blockquote {
+  margin: 2.5mm 0 3mm 2mm; padding: 0.5mm 0 0.5mm 3.5mm;
+  border-left: 0.8mm solid #c8977f; color: #3d3b36;
+}
+
+code, pre { font-family: "DejaVu Sans Mono", monospace; font-size: 8pt; }
+pre {
+  background: #f4f2ec; padding: 3mm;
+  border-left: 0.8mm solid #7a2e1e;
+  white-space: pre-wrap; break-inside: avoid; line-height: 1.35;
+}
+
+hr { border: 0; border-top: 0.2mm solid #d8d4c9; margin: 5mm 0; }
+
+/* Section D: the decision tree gets its own page, sized to fit */
 #section-d-one-page-decision-tree { break-before: page; }
 #section-d-one-page-decision-tree ~ pre { font-size: 7.5pt; line-height: 1.25; break-inside: avoid; }

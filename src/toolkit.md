@@ -5,7 +5,9 @@ date: "2026"
 lang: en-GB
 ---
 
-About this toolkit This is a practical guide for leaseholders in England facing disputes about service charges. It walks through every phase of the process — from first noticing a problem, through the internal complaints process, external escalation, the First-tier Tribunal, and the recovery of money owed.
+# About this toolkit
+
+This is a practical guide for leaseholders in England facing disputes about service charges. It walks through every phase of the process — from first noticing a problem, through the internal complaints process, external escalation, the First-tier Tribunal, and the recovery of money owed.
 
 It is anonymous and generic. It is not legal advice. Where your situation is unusual, complex, or high-value, get qualified advice from a specialist solicitor or LEASE.
 
@@ -101,7 +103,9 @@ Fourth, this takes time. The full journey — from first noticing a problem thro
 
 With that, let’s begin.
 
-Before you start: a realistic snapshot Before working through the phases, here is the full picture of what a service charge dispute requires — time, money, effort, and what you stand to recover. The point is not to discourage you. It is to make sure your decision to start (or stop) is informed.
+# Before you start: a realistic snapshot
+
+Before working through the phases, here is the full picture of what a service charge dispute requires — time, money, effort, and what you stand to recover. The point is not to discourage you. It is to make sure your decision to start (or stop) is informed.
 
 ## The full timeline
 
