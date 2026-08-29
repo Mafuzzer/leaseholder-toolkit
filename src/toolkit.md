@@ -2451,7 +2451,7 @@ Things to customise:
 
 ### A3. MP letter
 
-Use this when you want to enlist your MP for information leverage or constituent service. Most MPs accept correspondence by email through their parliamentary address (<!--email_off-->firstname.lastname.mp@parliament.uk<!--/email_off-->).
+Use this when you want to enlist your MP for information leverage or constituent service. Most MPs accept correspondence by email through their parliamentary address (<span class="no-obfuscate">firstname.lastname.mp<span>@</span>parliament.uk</span>).
 
 ::: template
 
